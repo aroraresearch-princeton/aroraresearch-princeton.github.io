@@ -1,0 +1,39 @@
+<style>
+    table,
+    tr,
+    td {
+        border: none;
+    }
+</style>
+
+<div style="height:250px;overflow:auto;border:0px;border-collapse: collapse;">
+    <table border="none" style="border:0px;border-collapse: collapse;" rules="none">
+        <colgroup>
+            <col span="1" style="width: 12%;">
+            <col span="1" style="width: 88%;">
+        </colgroup>
+        <tbody>
+            {% for hash in site.data.news %}
+            {% assign news = hash[1] %}
+            <tr>
+                {% if news.status == "new" %}
+                    {% if news.type == "paper" %}
+                        <td><b>[{{ news.date }}]</b></td>
+                        {% if news.venue %}
+                            <td> New paper <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a> was accepted to {{ news.venue }}! </td>
+                        {% else %}
+                            <td> Check out our new paper <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a>!</td>
+                        {% endif %}
+                    {% elsif news.type == "news" %}
+                        <td><b>[{{ news.date }}]</b></td>
+                        <td> <a href="{{ news.news_link }}">{{ news.host }}</a> {{ news.content }}!</td>
+                    {% elsif news.type == "award" %}
+                        <td><b>[{{ news.date }}]</b></td>
+                        <td>{{ news.content }}</td>
+                    {% endif %}
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,707 @@
+######################### 2025 #########################
+kaur2024instruct-skillmix-a-powerful:
+  title: "Instruct-SkillMix: A Powerful Pipeline for LLM Instruction Tuning"
+  link: "https://arxiv.org/abs/2408.14774"
+  venue: "ICLR 2025, Compositional Learning Workshop at NeurIPS 2024 (Oral), FITML Workshop at NeurIPS 2024"
+  authors: "Simran Kaur, Simon Park, Anirudh Goyal, Sanjeev Arora"
+  year: 2025
+
+panigrahi2024progressive-distillation:
+  title: "Progressive Distillation Induces an Implicit Curriculum"
+  link: "https://arxiv.org/abs/2410.05464"
+  venue: "ICLR 2025"
+  authors: "Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Andrej Risteski, Surbhi Goel"
+  year: 2025
+
+wei2024provable-unlearning-in:
+  title: "Provable Unlearning in Topic Modeling and Downstream Tasks"
+  link: "https://arxiv.org/abs/2411.12600"
+  venue: "ICLR 2025"
+  authors: "Stanley Wei, Sadhika Malladi, Sanjeev Arora, Amartya Sanyal"
+  year: 2025
+
+razin2024unintentional-unalignment:
+  title: "Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization"
+  link: "https://arxiv.org/abs/2410.08847"
+  venue: "ICLR 2025, FITML Workshop at NeurIPS 2024, ATTRIB Workshop at NeurIPS 2024"
+  authors: "Noam Razin, Sadhika Malladi, Adithya Bhaskar, Danqi Chen, Sanjeev Arora, Boris Hanin"
+  year: 2025
+
+######################### 2024 #########################
+xia2024less-selecting-influential:
+  title: "Less: Selecting influential data for targeted instruction tuning"
+  link: "https://arxiv.org/abs/2402.04333"
+  venue: "ICML 2024"
+  authors: "Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, Sanjeev Arora, Danqi Chen"
+  year: 2024
+
+didolkar2024metacognitive-capabilities-of:
+  title: "Metacognitive Capabilities of LLMs: An Exploration in Mathematical Problem Solving"
+  link: "https://arxiv.org/abs/2405.12205"
+  venue: "NeurIPS 2024"
+  authors: "Aniket Didolkar, Anirudh Goyal, Nan Rosemary Ke, Siyuan Guo, Michal Valko, Timothy Lillicrap, Danilo Rezende, Yoshua Bengio, Michael Mozer, Sanjeev Arora"
+  year: 2024
+
+lyu2024keeping-llms-aligned:
+  title: "Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates"
+  link: "https://arxiv.org/abs/2402.18540"
+  venue: "NeurIPS 2024"
+  authors: "Kaifeng Lyu, Haoyu Zhao, Xinran Gu, Dingli Yu, Anirudh Goyal, Sanjeev Arora"
+  year: 2024
+
+wang2024charxiv-charting-gaps:
+  title: "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs"
+  link: "https://arxiv.org/abs/2406.18521"
+  venue: "NeurIPS 2024"
+  authors: "Zirui Wang, Mengzhou Xia, Luxi He, Howard Chen, Yitao Liu, Richard Zhu, Kaiqu Liang, Xindi Wu, Haotian Liu, Sadhika Malladi, Alexis Chevalier, Sanjeev Arora, Danqi Chen"
+  year: 2024
+
+chevalier2024language-models-as:
+  title: "Language Models as Science Tutors"
+  link: "https://arxiv.org/abs/2402.11111"
+  venue: "ICML 2024"
+  authors: "Alexis Chevalier, Jiayi Geng, Alexander Wettig, Howard Chen, Sebastian Mizera, Toni Annala, Max Jameson Aragon, Arturo Rodríguez Fanlo, Simon Frieder, Simon Machado, Akshara Prabhakar, Ellie Thieu, Jiachen T Wang, Zirui Wang, Xindi Wu, Mengzhou Xia, Wenhan Jia, Jiatong Yu, Jun-Jie Zhu, Zhiyong Jason Ren, Sanjeev Arora, Danqi Chen"
+  year: 2024
+
+shah2024ai-assisted-generation-of:
+  title: "AI-Assisted Generation of Difficult Math Questions"
+  link: "https://arxiv.org/abs/2407.21009"
+  venue: "MATH-AI Workshop at NeurIPS 2024"
+  authors: "Vedant Shah, Dingli Yu, Kaifeng Lyu, Simon Park, Nan Rosemary Ke, Michael Mozer, Yoshua Bengio, Sanjeev Arora, Anirudh Goyal"
+  year: 2024
+
+wu2024conceptmix-a-compositional:
+  title: "ConceptMix: A Compositional Image Generation Benchmark with Controllable Difficulty"
+  link: "https://arxiv.org/abs/2408.14339"
+  venue: "NeurIPS 2024 Datasets Track"
+  authors: "Xindi Wu, Dingli Yu, Yangsibo Huang, Olga Russakovsky, Sanjeev Arora"
+  year: 2024
+
+zhao2024can-models-learn:
+  title: "Can Models Learn Skill Composition from Examples?"
+  link: "https://arxiv.org/abs/2409.19808"
+  venue: "NeurIPS 2024"
+  authors: "Haoyu Zhao, Simran Kaur, Dingli Yu, Anirudh Goyal, Sanjeev Arora"
+  year: 2024
+
+panigrahi2024progressive-distillation-induces:
+  title: "Progressive Distillation Induces an Implicit Curriculum"
+  link: "https://arxiv.org/abs/2410.05464"
+  venue: "M3L Workshop at NeurIPS 2024, Theoretical Foundations of Foundation Models Workshop at ICML 2024, MI Workshop at ICML 2024"
+  authors: "Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Andrej Risteski, Surbhi Goel"
+  year: 2024
+
+chen2024preference-learning-algorithms:
+  title: "Preference Learning Algorithms Do Not Learn Preference Rankings"
+  link: "https://arxiv.org/abs/2405.19534"
+  venue: "NeurIPS 2024"
+  authors: "Angelica Chen, Sadhika Malladi, Lily H. Zhang, Xinyi Chen, Qiuyi Zhang, Rajesh Ranganath, Kyunghyun Cho"
+  year: 2024
+
+
+######################### 2023 #########################
+
+malladi2023fine-tuning-language-models:
+  title: "Fine-Tuning Language Models with Just Forward Passes"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a627810151be4d13f907ac898ff7e948-Abstract-Conference.html"
+  venue: "NeurIPS 2023"
+  authors: "Sadhika Malladi, Tianyu Gao, Eshaan Nichani, Alex Damian, Jason D Lee, Danqi Chen, Sanjeev Arora"
+  year: 2023
+
+arora2023a-theory-for:
+  title: "A Theory for Emergence of Complex Skills in Language Models"
+  link: "https://arxiv.org/abs/2307.15936"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Anirudh Goyal"
+  year: 2023
+
+panigrahi2023task-specific-skill-localization:
+  title: "Task-Specific Skill Localization in Fine-tuned Language Models"
+  link: "https://proceedings.mlr.press/v202/panigrahi23a.html"
+  venue: "ICML 2023"
+  authors: "Abhishek Panigrahi, Nikunj Saunshi, Haoyu Zhao, Sanjeev Arora"
+  year: 2023
+
+malladi2023a-kernel-based-view:
+  title: "A Kernel-Based View of Language Model Fine-Tuning"
+  link: "https://proceedings.mlr.press/v202/malladi23a.html"
+  venue: "ICML 2023"
+  authors: "Sadhika Malladi, Alexander Wettig, Dingli Yu, Danqi Chen, Sanjeev Arora"
+  year: 2023
+
+yu2023skill-mix-a-flexible:
+  title: "Skill-Mix: a Flexible and Expandable Family of Evaluations for AI models"
+  link: "https://arxiv.org/abs/2310.17567"
+  venue: "ICLR 2024"
+  authors: "Dingli Yu, Simran Kaur, Arushi Gupta, Jonah Brown-Cohen, Anirudh Goyal, Sanjeev Arora"
+  year: 2023
+
+wang2023the-marginal-value:
+  title: "The Marginal Value of Momentum for Small Learning Rate SGD"
+  link: "https://arxiv.org/abs/2307.15196"
+  venue: "ICLR 2024"
+  authors: "Runzhe Wang, Sadhika Malladi, Tianhao Wang, Kaifeng Lyu, Zhiyuan Li"
+  year: 2023
+
+gu2023why-(and-when):
+  title: "Why (and When) does Local SGD Generalize Better than SGD?"
+  link: "https://arxiv.org/abs/2303.01215"
+  venue: "ICLR 2023"
+  authors: "Xinran Gu, Kaifeng Lyu, Longbo Huang, Sanjeev Arora"
+  year: 2023
+
+panigrahi2023trainable-transformer-in:
+  title: "Trainable Transformer in Transformer"
+  link: "https://arxiv.org/abs/2307.01189"
+  venue: "ICML 2024"
+  authors: "Abhishek Panigrahi, Sadhika Malladi, Mengzhou Xia, Sanjeev Arora"
+  year: 2023
+
+shah2023unlearning-via-sparse:
+  title: "Unlearning via Sparse Representations"
+  link: "https://arxiv.org/abs/2311.15268"
+  venue: "Preprint"
+  authors: "Vedant Shah, Frederik Träuble, Ashish Malik, Hugo Larochelle, Michael Mozer, Sanjeev Arora, Yoshua Bengio, Anirudh Goyal"
+  year: 2023
+
+
+######################### 2022 #########################
+
+saunshi2022understanding-contrastive-learning:
+  title: "Understanding Contrastive Learning Requires Incorporating Inductive Biases"
+  link: "https://proceedings.mlr.press/v162/saunshi22a.html"
+  venue: "ICML 2022"
+  authors: "Nikunj Saunshi, Jordan Ash, Surbhi Goel, Dipendra Misra, Cyril Zhang, Sanjeev Arora, Sham Kakade, Akshay Krishnamurthy"
+  year: 2022
+
+arora2022understanding-gradient-descent:
+  title: "Understanding Gradient Descent on the Edge of Stability in Deep Learning"
+  link: "https://proceedings.mlr.press/v162/arora22a.html"
+  venue: "ICML 2022"
+  authors: "Sanjeev Arora, Zhiyuan Li, Abhishek Panigrahi"
+  year: 2022
+
+lyu2022understanding-the-generalization:
+  title: "Understanding the Generalization Benefit of Normalization Layers: Sharpness Reduction"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/dffd1c523512e557f4e75e8309049213-Abstract-Conference.html"
+  venue: "NeurIPS 2022"
+  authors: "Kaifeng Lyu, Zhiyuan Li, Sanjeev Arora"
+  year: 2022
+
+malladi2022on-the-sdes:
+  title: "On the SDEs and Scaling Rules for Adaptive Gradient Algorithms"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/32ac710102f0620d0f28d5d05a44fe08-Abstract-Conference.html"
+  venue: "NeurIPS 2022"
+  authors: "Sadhika Malladi, Kaifeng Lyu, Abhishek Panigrahi, Sanjeev Arora"
+  year: 2022
+
+saunshi2022understanding-influence-functions:
+  title: "Understanding Influence Functions and Datamodels via Harmonic Analysis"
+  link: "https://arxiv.org/abs/2210.01072"
+  venue: "ICLR 2023"
+  authors: "Nikunj Saunshi, Arushi Gupta, Mark Braverman, Sanjeev Arora"
+  year: 2022
+
+lu2022adaptive-gradient-methods:
+  title: "Adaptive Gradient Methods with Local Guarantees"
+  link: "https://arxiv.org/abs/2203.01400"
+  venue: "Preprint"
+  authors: "Zhou Lu, Wenhan Xia, Sanjeev Arora, Elad Hazan"
+  year: 2022
+
+gupta2022new-definitions-and:
+  title: "New Definitions and Evaluations for Saliency Methods: Staying Intrinsic, Complete and Sound"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d6383e7643415842b48a5077a1b09c98-Abstract-Conference.html"
+  venue: "NeurIPS 2022"
+  authors: "Arushi Gupta, Nikunj Saunshi, Dingli Yu, Kaifeng Lyu, Sanjeev Arora"
+  year: 2022
+
+
+######################### 2021 #########################
+
+huang2021evaluating-gradient-inversion:
+  title: "Evaluating Gradient Inversion Attacks and Defenses in Federated Learning"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2021/hash/3b3fff6463464959dcd1b68d0320f781-Abstract.html"
+  venue: "NeurIPS 2021"
+  authors: "Yangsibo Huang, Samyak Gupta, Zhao Song, Kai Li, Sanjeev Arora"
+  year: 2021
+
+li2021what-happens-after:
+  title: "What Happens after SGD Reaches Zero Loss?--A Mathematical Framework"
+  link: "https://arxiv.org/abs/2110.06914"
+  venue: "NeurIPS 2021,"
+  authors: "Zhiyuan Li, Tianhao Wang, Sanjeev Arora"
+  year: 2021
+
+lyu2021gradient-descent-on:
+  title: "Gradient Descent on Two-layer Nets: Margin Maximization and Simplicity Bias"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2021/hash/6c351da15b5e8a743a21ee96a86e25df-Abstract.html"
+  venue: "NeurIPS 2021"
+  authors: "Kaifeng Lyu, Zhiyuan Li, Runzhe Wang, Sanjeev Arora"
+  year: 2021
+
+li2021on-the-validity:
+  title: "On the Validity of Modeling SGD with Stochastic Differential Equations (SDEs)"
+  link: "https://proceedings.neurips.cc/paper/2021/hash/69f62956429865909921fa916d61c1f8-Abstract.html"
+  venue: "NeurIPS 2021"
+  authors: "Zhiyuan Li, Sadhika Malladi, Sanjeev Arora"
+  year: 2021
+
+zhang2021on-predicting-generalization:
+  title: "On Predicting Generalization using GANs"
+  link: "https://arxiv.org/abs/2111.14212"
+  venue: "ICLR 2022 (spotlight)"
+  authors: "Yi Zhang, Arushi Gupta, Nikunj Saunshi, Sanjeev Arora"
+  year: 2021
+
+arora2021rip-van-winkle's:
+  title: "Rip van Winkle's Razor: A Simple Estimate of Overfit to Test Data"
+  link: "https://arxiv.org/abs/2102.13189"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Yi Zhang"
+  year: 2021
+
+arora2021opening-the-black:
+  title: "Opening the Black Box of Deep Learning: Some Lessons and Take-aways"
+  link: "https://dl.acm.org/doi/abs/10.1145/3410220.3453910"
+  venue: "SIGMETRICS '21"
+  authors: "Sanjeev Arora"
+  year: 2021
+
+arora2021technical-perspective-why:
+  title: "Technical perspective: Why don't today's deep nets overfit to their training data?"
+  link: "https://dl.acm.org/doi/abs/10.1145/3446773"
+  venue: "Communications of the ACM"
+  authors: "Sanjeev Arora"
+  year: 2021
+
+
+######################### 2020 #########################
+
+huang2020instahide-instance-hiding-schemes:
+  title: "InstaHide: Instance-hiding Schemes for Private Distributed Learning"
+  link: "http://proceedings.mlr.press/v119/huang20i.html"
+  venue: "ICML 2020"
+  authors: "Yangsibo Huang, Zhao Song, Kai Li, Sanjeev Arora"
+  year: 2020
+
+saunshi2020a-mathematical-exploration:
+  title: "A Mathematical Exploration of Why Language Models Help Solve Downstream Tasks"
+  link: "https://arxiv.org/abs/2010.03648"
+  venue: "ICLR 2021"
+  authors: "Nikunj Saunshi, Sadhika Malladi, Sanjeev Arora"
+  year: 2020
+
+li2020reconciling-modern-deep:
+  title: "Reconciling Modern Deep Learning with Traditional Optimization Analyses: The Intrinsic Learning Rate"
+  link: "https://proceedings.neurips.cc/paper/2020/hash/a7453a5f026fb6831d68bdc9cb0edcae-Abstract.html"
+  venue: "NeurIPS 2020"
+  authors: "Zhiyuan Li, Kaifeng Lyu, Sanjeev Arora"
+  year: 2020
+
+arora2020provable-representation-learning:
+  title: "Provable Representation Learning for Imitation Learning via Bi-level Optimization"
+  link: "https://proceedings.mlr.press/v119/arora20a.html"
+  venue: "ICML 2020"
+  authors: "Sanjeev Arora, Simon Du, Sham Kakade, Yuping Luo, Nikunj Saunshi"
+  year: 2020
+
+li2020why-are-convolutional:
+  title: "Why Are Convolutional Nets More Sample-Efficient than Fully-Connected Nets?"
+  link: "https://arxiv.org/abs/2010.08515"
+  venue: "ICLR 2021"
+  authors: "Zhiyuan Li, Yi Zhang, Sanjeev Arora"
+  year: 2020
+
+huang2020texthide-tackling-data:
+  title: "TextHide: Tackling Data Privacy in Language Understanding Tasks"
+  link: "https://aclanthology.org/2020.findings-emnlp.123/"
+  venue: "EMNLP 2020 (Findings)"
+  authors: "Yangsibo Huang, Zhao Song, Danqi Chen, Kai Li, Sanjeev Arora"
+  year: 2020
+
+zhang2020over-parameterized-adversarial-training:
+  title: "Over-parameterized Adversarial Training: An Analysis Overcoming the Curse of Dimensionality"
+  link: "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0740bb92e583cd2b88ec7c59f985cb41-Abstract.html"
+  venue: "NeurIPS 2020"
+  authors: "Yi Zhang, Orestis Plevrakis, Simon S Du, Xingguo Li, Zhao Song, Sanjeev Arora"
+  year: 2020
+
+saunshi2020a-sample-complexity:
+  title: "A Sample Complexity Separation between Non-Convex and Convex Meta-Learning"
+  link: "http://proceedings.mlr.press/v119/saunshi20a.html"
+  venue: "ICML 2020"
+  authors: "Nikunj Saunshi, Yi Zhang, Mikhail Khodak, Sanjeev Arora"
+  year: 2020
+
+huang2020privacy-preserving-learning-via:
+  title: "Privacy-preserving Learning via Deep Net Pruning"
+  link: "https://arxiv.org/abs/2003.01876"
+  venue: "Preprint"
+  authors: "Yangsibo Huang, Yushan Su, Sachin Ravi, Zhao Song, Sanjeev Arora, Kai Li"
+  year: 2020
+
+arora2020theory-of-deep:
+  title: "Theory of deep learning"
+  link: "https://www.cs.princeton.edu/~arora/TheoryDL.pdf"
+  venue: "Manuscript"
+  authors: "Raman Arora, Sanjeev Arora, Joan Bruna, Nadav Cohen, Simon Du, Rong Ge, Suriya Gunasekar, Chi Jin, Jason Lee, Tengyu Ma, Behnam Neyshabur, Zhao Song"
+  year: 2020
+
+arora2020the-quest-for:
+  title: "The Quest for Mathematical Understanding of Deep Learning"
+  link: "https://drops.dagstuhl.de/search/documents?author=Arora,%20Sanjeev"
+  venue: "40th IARCS Annual Conference on Foundations of Software Technology"
+  authors: "Sanjeev Arora"
+  year: 2020
+
+
+######################### 2019 #########################
+
+arora2019fine-grained-analysis-of:
+  title: "Fine-Grained Analysis of Optimization and Generalization for Overparameterized Two-Layer Neural Networks"
+  link: "http://proceedings.mlr.press/v97/arora19a.html"
+  venue: "ICML 2019"
+  authors: "Sanjeev Arora, Simon Du, Wei Hu, Zhiyuan Li, Ruosong Wang"
+  year: 2019
+
+arora2019on-exact-computation:
+  title: "On Exact Computation with an Infinitely Wide Neural Net"
+  link: "https://proceedings.neurips.cc/paper/2019/hash/dbc4d84bfcfe2284ba11beffb853a8c4-Abstract.html"
+  venue: "NeurIPS 2019"
+  authors: "Sanjeev Arora, Simon S Du, Wei Hu, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang"
+  year: 2019
+
+arora2019implicit-regularization-in:
+  title: "Implicit Regularization in Deep Matrix Factorization"
+  link: "https://proceedings.neurips.cc/paper/2019/hash/c0c783b5fc0d7d808f1d14a6e9c8280d-Abstract.html"
+  venue: "NeurIPS 2019"
+  authors: "Sanjeev Arora, Nadav Cohen, Wei Hu, Yuping Luo"
+  year: 2019
+
+saunshi2019a-theoretical-analysis:
+  title: "A Theoretical Analysis of Contrastive Unsupervised Representation Learning"
+  link: "http://proceedings.mlr.press/v97/saunshi19a"
+  venue: "ICML 2019"
+  authors: "Nikunj Saunshi, Orestis Plevrakis, Sanjeev Arora, Mikhail Khodak, Hrishikesh Khandeparkar"
+  year: 2019
+
+li2019an-exponential-learning:
+  title: "An Exponential Learning Rate Schedule for Deep Learning"
+  link: "https://arxiv.org/abs/1910.07454"
+  venue: "ICLR 2021"
+  authors: "Zhiyuan Li, Sanjeev Arora"
+  year: 2019
+
+arora2019harnessing-the-power:
+  title: "Harnessing the Power of Infinitely Wide Deep Nets on Small-data Tasks"
+  link: "https://arxiv.org/abs/1910.01663"
+  venue: "ICLR 2020"
+  authors: "Sanjeev Arora, Simon S Du, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang, Dingli Yu"
+  year: 2019
+
+li2019enhanced-convolutional-neural:
+  title: "Enhanced Convolutional Neural Tangent Kernels"
+  link: "https://arxiv.org/abs/1911.00809"
+  venue: "Preprint"
+  authors: "Zhiyuan Li, Ruosong Wang, Dingli Yu, Simon S Du, Wei Hu, Ruslan Salakhutdinov, Sanjeev Arora"
+  year: 2019
+
+kuditipudi2019explaining-landscape-connectivity:
+  title: "Explaining Landscape Connectivity of Low-cost Solutions for Multilayer Nets"
+  link: "https://proceedings.neurips.cc/paper/2019/hash/46a4378f835dc8040c8057beb6a2da52-Abstract.html"
+  venue: "NeurIPS 2019"
+  authors: "Rohith Kuditipudi, Xiang Wang, Holden Lee, Yi Zhang, Zhiyuan Li, Wei Hu, Sanjeev Arora, Rong Ge"
+  year: 2019
+
+arora2019wei-hu:
+  title: "A Convergence Analysis of Gradient Descent for Deep Linear Neural Networks"
+  link: "https://arxiv.org/abs/1810.02281"
+  venue: "ICLR 2019"
+  authors: "Sanjeev Arora, Nadav Cohen, Noah Golowich, Wei Hu"
+  year: 2019
+
+gupta2019a-simple-saliency:
+  title: "A Simple Saliency Method That Passes the Sanity Checks"
+  link: "https://arxiv.org/abs/1905.12152"
+  venue: "Preprint"
+  authors: "Arushi Gupta, Sanjeev Arora"
+  year: 2019
+
+arora2019on-exact-computation:
+  title: "On Exact Computation with an Infinitely Wide Neural Net"
+  link: "https://arxiv.org/abs/1904.11955"
+  venue: "NeurIPS 2019"
+  authors: "Sanjeev Arora, Simon S Du, Wei Hu, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang"
+  year: 2019
+
+arora2019dingli-yu:
+  title: "Harnessing the Power of Infinitely Wide Deep Nets on Small-data Tasks"
+  link: "https://arxiv.org/abs/1910.01663"
+  venue: "ICLR 2020 (spotlight)"
+  authors: "Sanjeev Arora, Simon S. Du, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang, Dingli Yu"
+  year: 2019
+
+
+######################### 2018 #########################
+
+arora2018stronger-generalization-bounds:
+  title: "Stronger Generalization Bounds for Deep Nets via a Compression Approach"
+  link: "http://proceedings.mlr.press/v80/arora18b.html"
+  venue: "ICML 2018"
+  authors: "Sanjeev Arora, Rong Ge, Behnam Neyshabur, Yi Zhang"
+  year: 2018
+
+arora2018on-the-optimization:
+  title: "On the Optimization of Deep Networks: Implicit Acceleration by Overparameterization"
+  link: "https://proceedings.mlr.press/v80/arora18a.html"
+  venue: "ICML 2018"
+  authors: "Sanjeev Arora, Nadav Cohen, Elad Hazan"
+  year: 2018
+
+arora2018a-convergence-analysis:
+  title: "A Convergence Analysis of Gradient Descent for Deep Linear Neural Networks"
+  link: "https://arxiv.org/abs/1810.02281"
+  venue: "ICLR 2019"
+  authors: "Sanjeev Arora, Nadav Cohen, Noah Golowich, Wei Hu"
+  year: 2018
+
+arora2018linear-algebraic-structure:
+  title: "Linear Algebraic Structure of Word Senses, with Applications to Polysemy "
+  link: "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00034/43451"
+  venue: "Transactions of the Association for Computational Linguistics"
+  authors: "Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, Andrej Risteski"
+  year: 2018
+
+arora2018an-analysis-of:
+  title: "An Analysis of the t-SNE Algorithm for Data Visualization"
+  link: "http://proceedings.mlr.press/v75/arora18a.html"
+  venue: "COLT 2018"
+  authors: "Sanjeev Arora, Wei Hu, Pravesh K Kothari"
+  year: 2018
+
+arora2018do-gans-learn:
+  title: "Do GANs learn the distribution? Some Theory and Empirics"
+  link: "https://openreview.net/forum?id=BJehNfW0-"
+  venue: "ICLR 2018"
+  authors: "Sanjeev Arora, Andrej Risteski, Yi Zhang"
+  year: 2018
+
+arora2018theoretical-analysis-of:
+  title: "Theoretical Analysis of Auto Rate-Tuning by Batch Normalization"
+  link: "https://arxiv.org/abs/1812.03981"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Zhiyuan Li, Kaifeng Lyu"
+  year: 2018
+
+khodak2018a-la-carte:
+  title: "A La Carte Embedding: Cheap but Effective Induction of Semantic Feature Vectors"
+  link: "https://arxiv.org/abs/1805.05388"
+  venue: "ACL 2018"
+  authors: "Mikhail Khodak, Nikunj Saunshi, Yingyu Liang, Tengyu Ma, Brandon Stewart, Sanjeev Arora"
+  year: 2018
+
+vodrahalli2018mapping-between-fmri:
+  title: "Mapping between fMRI responses to movies and their natural language annotations"
+  link: "https://www.sciencedirect.com/science/article/pii/S1053811917305128"
+  venue: "NeuroImage"
+  authors: "Kiran Vodrahalli, Po-Hsuan Chen, Yingyu Liang, Christopher Baldassano, Janice Chen, Esther Yong, Christopher Honey, Uri Hasson, Peter Ramadge, Kenneth A Norman, Sanjeev Arora"
+  year: 2018
+
+arora2018a-compressed-sensing:
+  title: "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs"
+  link: "https://openreview.net/forum?id=B1e5ef-C-"
+  venue: "ICLR 2018"
+  authors: "Sanjeev Arora, Mikhail Khodak, Nikunj Saunshi, Kiran Vodrahalli"
+  year: 2018
+
+arora2018towards-provable-control:
+  title: "Towards Provable Control for Unknown Linear Dynamical Systems"
+  link: "https://openreview.net/forum?id=HJGuXK1vM"
+  venue: "ICLR 2018 Workshop"
+  authors: "Sanjeev Arora, Elad Hazan, Holden Lee, Karan Singh, Cyril Zhang, Yi Zhang"
+  year: 2018
+
+arora2018learning-topic-models--provably:
+  title: "Learning topic models--provably and efficiently"
+  link: "https://dl.acm.org/doi/10.1145/3186262"
+  venue: "Communications of the ACM"
+  authors: "Sanjeev Arora, Rong Ge, Yoni Halpern, David Mimno, Ankur Moitra, David Sontag, Yichen Wu, Michael Zhu"
+  year: 2018
+
+arora2018mathematics-of-machine:
+  title: "Mathematics of machine learning: an introduction"
+  link: "https://www.worldscientific.com/doi/abs/10.1142/9789813272880_0017"
+  venue: "ICM 2018"
+  authors: "Sanjeev Arora"
+  year: 2018
+
+arora2018toward-theoretical-understanding:
+  title: "Toward theoretical understanding of deep learning"
+  link: "https://www.icts.res.in/sites/default/files/machinelearning2019-Sanjeev-Arora-Lecture2.pdf"
+  venue: "Harvard Ahlfors Lecture #2, 2018"
+  authors: "Sanjeev Arora"
+  year: 2018
+
+kalai2018icm-2018-lecture:
+  title: "ICM 2018 Lecture Sampler"
+  link: "https://www.ams.org/journals/notices/201807/rnoti-p781.pdf"
+  venue: "Notices of the AMS"
+  authors: "Gil Kalai, Sanjeev Arora, Catherine Goldstein, Sylvia Serfaty, Gregory F Lawler"
+  year: 2018
+
+
+######################### 2017 #########################
+
+arora2017a-simple-but:
+  title: "A Simple but Tough-to-Beat Baseline for Sentence Embeddings"
+  link: "https://openreview.net/forum?id=SyK00v5xx"
+  venue: "ICLR 2017"
+  authors: "Sanjeev Arora, Yingyu Liang, Tengyu Ma"
+  year: 2017
+
+arora2017generalization-and-equilibrium:
+  title: "Generalization and Equilibrium in Generative Adversarial Nets (GANs)"
+  link: "https://proceedings.mlr.press/v70/arora17a.html"
+  venue: "ICML 2017"
+  authors: "Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang"
+  year: 2017
+
+arora2017do-gans-actually:
+  title: "Do GANs actually learn the distribution? An empirical study"
+  link: "https://arxiv.org/abs/1706.08224"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Yi Zhang"
+  year: 2017
+
+lee2017on-the-ability:
+  title: "On the Ability of Neural Nets to Express Distributions"
+  link: "http://proceedings.mlr.press/v65/lee17a.html"
+  venue: "COLT 2017"
+  authors: "Holden Lee, Rong Ge, Tengyu Ma, Andrej Risteski, Sanjeev Arora"
+  year: 2017
+
+khodak2017automated-wordnet-construction:
+  title: "Automated WordNet Construction Using Word Embeddings"
+  link: "https://aclanthology.org/W17-1902/"
+  venue: "Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications"
+  authors: "Mikhail Khodak, Andrej Risteski, Christiane Fellbaum, Sanjeev Arora"
+  year: 2017
+
+arora2017provable-learning-of:
+  title: "Provable learning of noisy-OR networks"
+  link: "https://dl.acm.org/doi/abs/10.1145/3055399.3055482"
+  venue: "STOC 2017"
+  authors: "Sanjeev Arora, Rong Ge, Tengyu Ma, Andrej Risteski"
+  year: 2017
+
+arora2017theoretical-limitations-of:
+  title: "Theoretical limitations of Encoder-Decoder GAN architectures"
+  link: "https://arxiv.org/abs/1711.02651"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Andrej Risteski, Yi Zhang"
+  year: 2017
+
+arora2017provable-benefits-of:
+  title: "Provable benefits of representation learning"
+  link: "https://arxiv.org/abs/1706.04601"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Andrej Risteski"
+  year: 2017
+
+adewale2017pixie-a-social:
+  title: "Pixie: a social chatbot"
+  link: "http://www.courses.mmeteer.com/Papers/Alexa_prize/pixie.pdf"
+  venue: "Alexa prize proceedings"
+  authors: "Oluwatosin Adewale, Alex Beatson, Davit Buniatyan, Jason Ge, Mikhail Khodak, Holden Lee, Niranjani Prasad, Nikunj Saunshi, Ari Seff, Karan Singh, Daniel Suo, Cyril Zhang, Sanjeev Arora"
+  year: 2017
+
+khodak2017extending-and-improving:
+  title: "Extending and Improving Wordnet via Unsupervised Word Embeddings"
+  link: "https://arxiv.org/abs/1705.00217"
+  venue: "Preprint"
+  authors: "Mikhail Khodak, Andrej Risteski, Christiane Fellbaum, Sanjeev Arora"
+  year: 2017
+
+
+######################### 2016 #########################
+
+arora2016a-latent-variable:
+  title: "A Latent Variable Model Approach to PMI-based Word Embeddings"
+  link: "https://direct.mit.edu/tacl/article-abstract/doi/10.1162/tacl_a_00106/43373"
+  venue: "Transactions of the Association for Computational Linguistics"
+  authors: "Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, Andrej Risteski"
+  year: 2016
+
+arora2016a-combinatorial-primal-dual:
+  title: "A Combinatorial, Primal-Dual Approach to Semidefinite Programs"
+  link: "https://dl.acm.org/doi/abs/10.1145/2837020"
+  venue: "Journal of the ACM (JACM)"
+  authors: "Sanjeev Arora, Satyen Kale"
+  year: 2016
+
+arora2016provable-algorithms-for:
+  title: "Provable algorithms for inference in topic models"
+  link: "http://proceedings.mlr.press/v48/arorab16.html"
+  venue: "Venue not listed"
+  authors: "Sanjeev Arora, Rong Ge, Frederic Koehler, Tengyu Ma, Ankur Moitra"
+  year: 2016
+
+vodrahalli2016mapping-between-natural:
+  title: "Mapping between natural movie fMRI responses and word-sequence representations"
+  link: "https://www.researchgate.net/profile/Peter-Ramadge/publication/309131818_Mapping_Between_Natural_Movie_fMRI_Responses_and_Word-Sequence_Representations/links/582b5a0708aef19cb806b6ae/Mapping-Between-Natural-Movie-fMRI-Responses-and-Word-Sequence-Representations.pdf"
+  venue: "Preprint"
+  authors: "Kiran Vodrahalli, Po-Hsuan Chen, Yingyu Liang, Janice Chen, Esther Yong, Christopher Honey, Peter Ramadge, Ken Norman, Sanjeev Arora"
+  year: 2016
+
+
+######################### 2015 #########################
+
+arora2015subexponential-algorithms-for:
+  title: "Subexponential algorithms for unique games and related problems"
+  link: "https://dl.acm.org/doi/abs/10.1145/2775105"
+  venue: "Journal of the ACM (JACM)"
+  authors: "Sanjeev Arora, Boaz Barak, David Steurer"
+  year: 2015
+
+arora2015simple-efficient-and:
+  title: "Simple, efficient, and neural algorithms for sparse coding"
+  link: "http://proceedings.mlr.press/v40/Arora15.html"
+  venue: "Venue not listed"
+  authors: "Sanjeev Arora, Rong Ge, Tengyu Ma, Ankur Moitra"
+  year: 2015
+
+arora2015random-walks-on:
+  title: "Random walks on context spaces: Towards an explanation of the mysteries of semantic word embeddings"
+  link: "https://www.researchgate.net/profile/Yingyu-Liang/publication/272194206_Random_Walks_on_Context_Spaces_Towards_an_Explanation_of_the_Mysteries_of_Semantic_Word_Embeddings/links/5627ab1b08ae22b1fb13d6e9/Random-Walks-on-Context-Spaces-Towards-an-Explanation-of-the-Mysteries-of-Semantic-Word-Embeddings.pdf"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, Andrej Risteski"
+  year: 2015
+
+arora2015why-are-deep:
+  title: "Why are deep nets reversible: A simple theory, with implications for training"
+  link: "https://arxiv.org/abs/1511.05653"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Yingyu Liang, Tengyu Ma"
+  year: 2015
+
+arora2015random-walks-on:
+  title: "Random walks on discourse spaces: a new generative language model with applications to semantic word embeddings. ArXiv e-prints"
+  link: "https://scholar.google.com/scholar?cluster=5569674002370325377&hl=en&oi=scholarr"
+  venue: "Preprint"
+  authors: "Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, Andrej Risteski"
+  year: 2015
+
+arora2015cos-521-a:
+  title: "COS 521: A Graduate Course in Algorithm Design and Analysis"
+  link: "https://www.cs.princeton.edu/courses/archive/fall14/cos521/main.pdf"
+  venue: "Venue not listed"
+  authors: "Sanjeev Arora"
+  year: 2015
+
+arora2015overcoming-intractability-in:
+  title: "Overcoming Intractability in Unsupervised Learning (Invited Talk)"
+  link: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.STACS.2015.1"
+  venue: "Venue not listed"
+  authors: "Sanjeev Arora"
+  year: 2015

@@ -1,0 +1,11 @@
+<div class="publications">
+    <ul>
+        {% for hash in site.data.publications %}
+        {% assign paper = hash[1] %}
+
+        {% if paper.year == year %}
+        <li><a href="{{ paper.link }}">{{ paper.title }}</a>. {{ paper.venue }} ({{ paper.authors }})</li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

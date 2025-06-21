@@ -1,0 +1,226 @@
+# Current members
+sanjeev:
+  name: Sanjeev Arora
+  title: Director of Princeton Language and Intelligence
+  title2: Charles C. Fitzmorris Professor of Computer Science, Princeton University
+  photo: https://raw.githubusercontent.com/profsanjeevarora/profsanjeevarora.github.io/main/images/sanjeevPLI.jpg
+  website: https://www.cs.princeton.edu/~arora/
+  status: principal investigator
+
+noam:
+  name: Noam Razin
+  title: PLI Postdoc
+  photo: /people/noam_razin.png
+  website: https://noamrazin.github.io
+  status: current
+
+yong:
+  name: Yong Lin
+  title: PLI Postdoc
+  photo: /people/yong_lin.jpg
+  website: https://linyongver.github.io/Website/
+  status: current
+
+sadhika:
+  name: Sadhika Malladi
+  title: PhD Student
+  photo: /people/sadhika_malladi.jpg
+  website: https://www.cs.princeton.edu/~smalladi/index.html
+  status: current
+
+abhishek:
+  name: Abhishek Panigrahi
+  title: PhD Student
+  photo: /people/abhishek_panigrahi.jpg
+  website: https://abhishekpanigrahi1996.github.io
+  status: current
+
+haoyu:
+  name: Haoyu Zhao
+  title: PhD Student
+  photo: /people/haoyu_zhao.jpg
+  website: https://hyzhao.me
+  status: current
+
+simran:
+  name: Simran Kaur
+  title: PhD Student
+  photo: /people/simran_kaur.jpg
+  website: https://www.kaursim.com
+  status: current
+
+yikai:
+  name: Yikai Wu
+  title: PhD Student
+  photo: /people/yikai_wu.jpg
+  website: https://yikai-wu.github.io
+  status: current
+
+xingyu:
+  name: Xingyu Zhu
+  title: PhD Student
+  photo: /people/xingyu_zhu.jpg
+  website: https://ultimatejupiter.github.io
+  status: current
+
+catherine:
+  name: Yun Cheng
+  title: PhD Student
+  photo: /people/yun_cheng.jpg
+  website: https://kapikantzari.github.io
+  status: current
+
+stanley:
+  name: Stanley Wei
+  title: PhD Student
+  photo: /people/stanley_wei.jpg
+  website: https://stanleyrwei.github.io
+  status: current
+
+yinghui:
+  name: Yinghui He
+  title: PhD Student
+  photo: /people/yinghui_he.JPG
+  website: https://ying-hui-he.github.io
+  status: current
+
+simon:
+  name: Simon Park
+  title: MSE Student
+  photo: /people/simon_park.jpg
+  website: https://parksimon0808.github.io
+  status: current
+
+jiatong:
+  name: Jiatong Yu
+  title: MSE Student
+  photo: /people/jiatong_yu.jpg
+  website: https://www.cs.princeton.edu/~jiatongy/
+  status: current
+  
+################ Former members ################
+kaifeng:
+  name: Kaifeng Lyu
+  website: https://kaifeng.ac
+  status: former
+  attr: PhD 2024
+
+dingli:
+  name: Dingli Yu
+  website: https://dingliyu.net
+  status: former
+  attr: PhD 2024
+
+arushi:
+  name: Arushi Gupta
+  website: https://www.linkedin.com/in/arushi-gupta-727833103/
+  status: former
+  attr: PhD 2024
+
+yuping:
+  name: Yuping Luo
+  website: https://www.yuping.me
+  status: former
+  attr: PhD 2022
+
+zhiyuan:
+  name: Zhiyuan Li
+  website: http://zhiyuanli.ttic.edu
+  status: former
+  attr: PhD 2022
+
+nikunj:
+  name: Nikunj Saunshi
+  website: https://www.nikunjsaunshi.com
+  status: former
+  attr: PhD 2022
+
+yi:
+  name: Yi Zhang
+  website: https://www.yi-zhang.me
+  status: former
+  attr: PhD 2021
+
+orestic:
+  name: Orestis Plevrakis
+  website: https://www.cs.princeton.edu/%7Eorestisp/
+  status: former
+  attr: PhD 2021
+
+holden:
+  name: Holden Lee
+  website: http://holdenlee.github.io
+  status: former
+  attr: PhD 2019
+
+sida:
+  name: Sida Wang
+  website: https://www.sidaw.xyz
+  status: former
+  attr: Postdoc 2017-2019
+
+nadav:
+  name: Nadav Cohen
+  website: http://www.cohennadav.com
+  status: former
+  attr: Postdoc 2017-2019
+
+behnam:
+  name: Behnam Neyshabur
+  website: https://www.neyshabur.net
+  status: former
+  attr: Postdoc 2017-2018
+
+yuanzhi:
+  name: Yuanzhi Li
+  website: https://mbzuai.ac.ae/study/faculty/yuanzhi-li/
+  status: former
+  attr: PhD 2018
+
+mikhail:
+  name: Mikhail Khodak
+  website: https://pages.cs.wisc.edu/~khodak/
+  status: former
+  attr: BS'16, MSc'18
+
+kiran:
+  name: Kiran Vodrahalli
+  website: https://kiranvodrahalli.github.io/about/
+  status: former
+  attr: BS'16, MSc'17
+
+andrej:
+  name: Andrej Risteski
+  website: https://www.andrew.cmu.edu/user/aristesk/
+  status: former
+  attr: PhD 2017
+
+yingyu:
+  name: Yingyu Liang
+  website: https://pages.cs.wisc.edu/~yliang/
+  status: former
+  attr: Postdoc 2014-2017
+
+tengyu:
+  name: Tengyu Ma
+  website: https://ai.stanford.edu/~tengyuma/
+  status: former
+  attr: PhD 2017
+
+ankur:
+  name: Ankur Moitra
+  website: https://people.csail.mit.edu/moitra/
+  status: former
+  attr: Postdoc 2011-2013
+
+sushant:
+  name: Sushant Sachdeva
+  website: https://sachdevasushant.github.io
+  status: former
+  attr: PhD 2013
+
+rong:
+  name: Rong Ge
+  website: https://www.cs.duke.edu/~rongge/
+  status: former
+  attr: PhD 2013

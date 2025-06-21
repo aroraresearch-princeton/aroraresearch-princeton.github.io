@@ -1,0 +1,23 @@
+simons-2024:
+  title: 'LLM Metacognition: Understanding and Leveraging LLMs'' "Thinking about Thinking"'
+  venue: Simons Institute
+  link: https://www.youtube.com/watch?v=cntj4vN7mG0
+  embed_link: https://www.youtube.com/embed/cntj4vN7mG0
+  year: 2024
+  status: new
+
+um-2023:
+  title: "Why do large language models display new and complex skills?"
+  venue: University of Michigan Computer Science and Engineering
+  link: https://www.youtube.com/watch?v=RQ9OwONya2s?si=92vTxSNT-nnrDnH9
+  embed_link: https://www.youtube.com/embed/RQ9OwONya2s?si=92vTxSNT-nnrDnH9
+  year: 2023
+  status: new
+
+simons-2023:
+  title: "A Theory for Emergence of Complex Skills in Language Models"
+  venue: Simons Institute
+  link: https://www.youtube.com/watch?v=0D23NeBjCeQ
+  embed_link: https://www.youtube.com/embed/0D23NeBjCeQ
+  year: 2023
+  status: new

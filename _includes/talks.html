@@ -1,0 +1,18 @@
+<div class="talks">
+    
+        {% for hash in site.data.talks %}
+        {% assign talk = hash[1] %}
+        {% if talk.status == "new" %}
+        
+        <p><a href="{{ talk.link }}">{{ talk.title }}</a> ({{ talk.venue }}, {{ talk.year }})</p>
+        <div class="video-container">
+            <div class="video-wrapper">
+                <iframe src="{{ talk.embed_link }}" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        &nbsp;
+        {% endif %}
+        {% endfor %}
+    
+</div>

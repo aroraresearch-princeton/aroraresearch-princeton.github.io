@@ -1,0 +1,33 @@
+<div class="people-grid">
+    {% for hash in site.data.people %}
+
+    {% assign person = hash[1] %}
+    <div>
+        {% if person.status == status %}
+            {% if person.status == "principal investigator" %}
+            <div class="person person-current">
+                <img src="{{ person.photo }}" />
+                <div class="info">
+                    <a href="{{ person.website }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                    <br>
+                    {{ person.title }}
+                    {% if person.title2 %}
+                    <br>
+                    {{ person.title2 }}
+                    {% endif %}
+                </div>
+            </div>
+            {% elsif person.status == "current" %}
+            <div class="person person-current">
+                <img src="{{ person.photo }}" />
+                <div class="info">
+                    <a href="{{ person.website }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                    <br>
+                    {{ person.title }}
+                </div>
+            </div>
+            {% endif %}
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

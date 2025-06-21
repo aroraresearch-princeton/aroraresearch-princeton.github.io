@@ -1,0 +1,206 @@
+context-enhanced:
+  type: paper
+  paper_title: 'On the Power of Context-Enhanced Learning in LLMs'
+  paper_link: https://arxiv.org/abs/2503.01821
+  date: 03/2025
+  status: new
+
+goedel-prover: 
+  type: paper
+  paper_title: 'Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving'
+  paper_link: https://arxiv.org/abs/2502.07640
+  date: 02/2025
+  status: new
+
+unrealized-expectation:
+  type: paper
+  paper_title: 'Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set'
+  paper_link: https://arxiv.org/abs/2502.03669
+  date: 02/2025
+  status: new
+
+vlm-s2h:
+  type: paper
+  paper_title: 'Generalizing from SIMPLE to HARD Visual Reasoning: Can We Mitigate Modality Imbalance in VLMs?'
+  paper_link: https://arxiv.org/abs/2501.02669
+  date: 01/2025
+  status: new
+
+instruct-skillmix:
+  type: paper
+  paper_title: 'Instruct-SkillMix: A Powerful Pipeline for LLM Instruction Tuning'
+  paper_link: https://arxiv.org/abs/2408.14774
+  venue: ICLR 2025
+  date: 01/2025
+  status: new
+
+progressive-distillation:
+  type: paper
+  paper_title: 'Progressive distillation induces an implicit curriculum'
+  paper_link: https://arxiv.org/abs/2410.05464
+  venue: ICLR 2025 <b>(Oral)</b>
+  date: 01/2025
+  status: new
+
+unintentional-unalignment:
+  type: paper
+  paper_title: 'Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization'
+  paper_link: https://arxiv.org/abs/2410.08847
+  venue: ICLR 2025
+  date: 01/2025
+  status: new
+
+provable-unlearning:
+  type: paper
+  paper_title: 'Provable unlearning in topic modeling and downstream tasks'
+  paper_link: https://arxiv.org/abs/2411.12600
+  venue: ICLR 2025
+  date: 01/2025
+  status: new
+
+adaptive-data:
+  type: paper
+  paper_title: 'Adaptive Data Optimization: Dynamic Sample Selection with Scaling Law'
+  paper_link: https://arxiv.org/abs/2410.11820
+  venue: ICLR 2025
+  date: 01/2025
+  status: new
+
+muse:
+  type: paper
+  paper_title: 'MUSE: Machine Unlearning Six-Way Evaluation for Language Models'
+  paper_link: https://arxiv.org/abs/2407.06460
+  venue: ICLR 2025
+  date: 01/2025
+  status: new
+
+quanta-skills-youtube:
+  type: news
+  news_link: https://www.youtube.com/watch?v=fTMMsreAqX0
+  content: featured our work on emergence of skill compositionality (and its limitations) in LLMs among the CS breakthroughs of the year
+  host: Quanta Magazine
+  date: 12/2024
+  status: new
+
+sadhika_siebel_scholar:
+  type: award
+  content: Congrats to Sadhika Malladi on being named 2025 Siebel Scholar!
+  date: 09/2024
+  status: new
+
+skillmix-ft:
+  type: paper
+  paper_title: Can Models Learn Skill Composition from Examples?
+  paper_link: https://arxiv.org/abs/2409.19808
+  venue: NeurIPS 2024
+  date: 09/2024
+  status: new
+
+ptst:
+  type: paper
+  paper_title: 'Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates'
+  paper_link: https://arxiv.org/abs/2402.18540
+  venue: NeurIPS 2024
+  date: 09/2024
+  status: new
+
+math2:
+  type: paper
+  paper_title: AI-Assisted Generation of Difficult Math Questions
+  paper_link: https://arxiv.org/abs/2407.21009
+  venue: MATH-AI Workshop at NeurIPS 2024
+  date: 09/2024
+  status: new
+
+tint:
+  type: paper
+  paper_title: Trainable transformer in transformer
+  paper_link: https://arxiv.org/abs/2307.01189
+  venue: ICML 2024
+  date: 05/2024
+  status: new
+
+less:
+  type: paper
+  paper_title: 'LESS: Selecting Influential Data for Targeted Instruction Tuning'
+  paper_link: https://arxiv.org/abs/2402.04333
+  venue: ICML 2024
+  date: 05/2024
+  status: new
+
+quanta-skills:
+  type: news
+  news_link: https://www.quantamagazine.org/new-theory-suggests-chatbots-can-understand-text-20240122/
+  content: features our work on emergence of complex skills in LLMs and SkillMix evaluation
+  host: Quanta Magazine
+  date: 01/2024
+  status: new
+
+################ News Archives ################
+# instruct-skillmix:
+#   type: paper
+#   paper_title: 'Instruct-SkillMix: A Powerful Pipeline for LLM Instruction Tuning'
+#   paper_link: https://arxiv.org/abs/2408.14774
+#   venue: Compositional Learning Workshop at NeurIPS 2024 (Oral), FITML Workshop at NeurIPS 2024
+#   date: 09/2024
+#   status: new
+
+skillmix:
+  type: paper
+  paper_title: 'Skill-Mix: A flexible and expandable family of evaluations for AI models'
+  paper_link: https://arxiv.org/abs/2310.17567
+  venue: ICLR 2024
+  date: 01/2024
+  status: archive
+
+mezo:
+  type: paper
+  paper_title: Fine-Tuning Language Models with Just Forward Passes
+  paper_link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/a627810151be4d13f907ac898ff7e948-Abstract-Conference.html
+  venue: NeurIPS 2023 Oral
+  date: 09/2023
+  status: archive
+
+graft:
+  type: paper
+  paper_title: Task-Specific Skill Localization in Fine-tuned Language Models
+  paper_link: https://proceedings.mlr.press/v202/panigrahi23a.html
+  venue: ICML 2023
+  date: 04/2023
+  status: archive
+
+kernel_ft:
+  type: paper
+  paper_title: A Kernel-Based View of Language Model Fine-Tuning
+  paper_link: https://proceedings.mlr.press/v202/malladi23a.html
+  venue: ICML 2023
+  date: 04/2023
+  status: archive
+
+instahide_bell_lab:
+  type: news
+  paper_title: 'InstaHide: Instance-hiding Schemes for Private Distributed Learning'
+  paper_link: http://proceedings.mlr.press/v119/huang20i.html
+  news_link: https://www.nokia.com/about-us/news/releases/2020/12/03/nokia-announces-2020-bell-labs-prize-winners/
+  content: is runner-up for
+  host: Bell Labs Innovation prize
+  date: 12/2020
+  status: archive
+
+andrej_yuanzhi_nadav:
+  type: graduate
+  content: Andrej Risteski & Yuanzhi Li -->  CMU, Nadav Cohen --> Tel Aviv.
+  date: 09/2019
+  status: archive
+
+tengyu_yingyu:
+  type: graduate
+  content: Tengyu Ma --> Stanford, Yingyu Liang --> Madison
+  date: 09/2017
+  status: archive
+
+tengyu_best_paper:
+  type: award
+  content: Tengyu Ma received best student paper at NIPS'16!
+  date: 09/2016
+  status: archive
