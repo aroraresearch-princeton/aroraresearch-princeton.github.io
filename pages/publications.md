@@ -6,9 +6,9 @@ layout: default
 
 Please also check our google scholar pages and arxiv for latest works
 
-## 2025
+<!-- ## 2025
 {% assign year = 2025 %}
-{% include publications.html %}
+{% include publications.html %} -->
 
 ## 2024
 {% assign year = 2024 %}

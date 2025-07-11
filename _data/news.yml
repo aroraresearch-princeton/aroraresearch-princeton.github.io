@@ -2,6 +2,35 @@ context-enhanced:
   type: paper
   paper_title: 'On the Power of Context-Enhanced Learning in LLMs'
   paper_link: https://arxiv.org/abs/2503.01821
+  venue: ICML 2025 <b>(Spotlight)</b>
+  date: 05/2025
+  status: new
+
+vlm-s2h:
+  type: paper
+  paper_title: 'Generalizing from SIMPLE to HARD Visual Reasoning: Can We Mitigate Modality Imbalance in VLMs?'
+  paper_link: https://arxiv.org/abs/2501.02669
+  venue: ICML 2025
+  date: 05/2025
+  status: new
+
+poor-implicit-reward:
+  type: paper
+  paper_title: 'Why is Your Language Model a Poor Implicit Reward Model?'
+  paper_link: https://arxiv.org/abs/2507.07981
+  date: 05/2025
+  status: new
+
+abhishek_apple_scholar:
+  type: award
+  content: Congrats to Abhishek Panigrahi on being named 2025 Apple Scholar in AIML!
+  date: 03/2025
+  status: new
+
+good-reward:
+  type: paper
+  paper_title: 'What Makes a Reward Model a Good Teacher? An Optimization Perspective'
+  paper_link: https://arxiv.org/abs/2503.15477
   date: 03/2025
   status: new
 
@@ -17,13 +46,6 @@ unrealized-expectation:
   paper_title: 'Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set'
   paper_link: https://arxiv.org/abs/2502.03669
   date: 02/2025
-  status: new
-
-vlm-s2h:
-  type: paper
-  paper_title: 'Generalizing from SIMPLE to HARD Visual Reasoning: Can We Mitigate Modality Imbalance in VLMs?'
-  paper_link: https://arxiv.org/abs/2501.02669
-  date: 01/2025
   status: new
 
 instruct-skillmix:
@@ -74,19 +96,20 @@ muse:
   date: 01/2025
   status: new
 
+################ News Archives ################
 quanta-skills-youtube:
   type: news
   news_link: https://www.youtube.com/watch?v=fTMMsreAqX0
   content: featured our work on emergence of skill compositionality (and its limitations) in LLMs among the CS breakthroughs of the year
   host: Quanta Magazine
   date: 12/2024
-  status: new
+  status: archive
 
 sadhika_siebel_scholar:
   type: award
   content: Congrats to Sadhika Malladi on being named 2025 Siebel Scholar!
   date: 09/2024
-  status: new
+  status: archive
 
 skillmix-ft:
   type: paper
@@ -94,7 +117,7 @@ skillmix-ft:
   paper_link: https://arxiv.org/abs/2409.19808
   venue: NeurIPS 2024
   date: 09/2024
-  status: new
+  status: archive
 
 ptst:
   type: paper
@@ -102,7 +125,7 @@ ptst:
   paper_link: https://arxiv.org/abs/2402.18540
   venue: NeurIPS 2024
   date: 09/2024
-  status: new
+  status: archive
 
 math2:
   type: paper
@@ -110,7 +133,7 @@ math2:
   paper_link: https://arxiv.org/abs/2407.21009
   venue: MATH-AI Workshop at NeurIPS 2024
   date: 09/2024
-  status: new
+  status: archive
 
 tint:
   type: paper
@@ -118,7 +141,7 @@ tint:
   paper_link: https://arxiv.org/abs/2307.01189
   venue: ICML 2024
   date: 05/2024
-  status: new
+  status: archive
 
 less:
   type: paper
@@ -126,7 +149,7 @@ less:
   paper_link: https://arxiv.org/abs/2402.04333
   venue: ICML 2024
   date: 05/2024
-  status: new
+  status: archive
 
 quanta-skills:
   type: news
@@ -134,16 +157,7 @@ quanta-skills:
   content: features our work on emergence of complex skills in LLMs and SkillMix evaluation
   host: Quanta Magazine
   date: 01/2024
-  status: new
-
-################ News Archives ################
-# instruct-skillmix:
-#   type: paper
-#   paper_title: 'Instruct-SkillMix: A Powerful Pipeline for LLM Instruction Tuning'
-#   paper_link: https://arxiv.org/abs/2408.14774
-#   venue: Compositional Learning Workshop at NeurIPS 2024 (Oral), FITML Workshop at NeurIPS 2024
-#   date: 09/2024
-#   status: new
+  status: archive
 
 skillmix:
   type: paper
