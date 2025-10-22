@@ -21,6 +21,13 @@ yong:
   website: https://linyongver.github.io/Website/
   status: current
 
+xingyu:
+  name: Xingyu Fu
+  title: PLI Postdoc
+  photo: /people/xingyu_fu.jpg
+  website: https://zeyofu.github.io
+  status: current
+
 sadhika:
   name: Sadhika Malladi
   title: PhD Student
@@ -56,7 +63,7 @@ yikai:
   website: https://yikai-wu.github.io
   status: current
 
-xingyu:
+jupiter:
   name: Xingyu Zhu
   title: PhD Student
   photo: /people/xingyu_zhu.jpg
@@ -86,9 +93,37 @@ yinghui:
 
 simon:
   name: Simon Park
-  title: MSE Student
+  title: PhD Student
   photo: /people/simon_park.jpg
   website: https://parksimon0808.github.io
+  status: current
+
+dang:
+  name: Xingyu Dang
+  title: PhD Student
+  photo: /people/xingyu_dang.jpg
+  website: https://dangxingyu.github.io/
+  status: current
+
+shuning:
+  name: Shuning Shang
+  title: PhD Student
+  photo: /people/shuning_shang.jpg
+  website: https://nooraovo.github.io
+  status: current
+
+edward:
+  name: Narutatsu Ri
+  title: PhD Student
+  photo: /people/narutatsu_ri.jpg
+  website: https://narutatsuri.github.io
+  status: current
+
+jack:
+  name: Ziyang Cai
+  title: PhD Student
+  photo: https://ca.slack-edge.com/TUS2PBH3K-U093Q524831-50c06fe87604-512
+  website: 
   status: current
 
 jiatong:
