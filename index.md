@@ -3,8 +3,8 @@ layout: default
 ---
 
 <section class="hero">
-  <span class="hero__eyebrow">Arora Research Lab · Princeton</span>
-  <h1 class="hero__title">Understanding the inner workings of modern AI.</h1>
+  <span class="hero__eyebrow">Princeton University · Computer Science</span>
+  <h1 class="hero__title">ARORA Research Lab</h1>
   <p class="hero__subtitle">
     We develop conceptual understanding of AI models — training techniques, datasets,
     interpretability, and evaluation. Recent work elicits and composes <em>skills</em>
