@@ -552,36 +552,26 @@ th { color: var(--color-ink); font-weight: 500; }
    ─────────────────────────────────────────────────────────────── */
 .talks {
   display: grid;
-  gap: var(--s-lg);
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s-md);
   margin: var(--s-lg) 0;
 }
 .talk {
   background: var(--color-surface-1);
   border: 1px solid var(--color-hairline);
-  border-radius: var(--r-xl);
-  padding: var(--s-lg);
-}
-.talk__title {
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--color-ink);
-  letter-spacing: -0.2px;
-  margin: 0 0 var(--s-sm);
-}
-.talk__title a { color: var(--color-ink); }
-.talk__title a:hover { color: var(--color-primary-hover); }
-.talk__meta {
-  font-size: 12px;
-  font-family: var(--font-mono);
-  color: var(--color-ink-subtle);
-  margin: 0 0 var(--s-md);
+  border-radius: var(--r-lg);
+  padding: var(--s-md);
+  display: flex;
+  flex-direction: column;
 }
 .talk__video {
   position: relative;
   padding-top: 56.25%;
-  border-radius: var(--r-lg);
+  border-radius: var(--r-md);
   overflow: hidden;
   background: var(--color-surface-3);
+  order: -1;
+  margin-bottom: var(--s-sm);
 }
 .talk__video iframe {
   position: absolute;
@@ -589,6 +579,29 @@ th { color: var(--color-ink); font-weight: 500; }
   width: 100%;
   height: 100%;
   border: 0;
+}
+.talk__title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-ink);
+  letter-spacing: -0.1px;
+  line-height: 1.35;
+  margin: 0 0 var(--s-xxs);
+}
+.talk__title a { color: var(--color-ink); }
+.talk__title a:hover { color: var(--color-primary); }
+.talk__meta {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--color-ink-subtle);
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .talks { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .talks { grid-template-columns: 1fr; }
 }
 
 /* Legacy/back-compat for existing inline video containers in index.md */
