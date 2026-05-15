@@ -18,12 +18,14 @@ layout: default
   </div>
 </section>
 
-<div class="section-head">
-  <h2>News</h2>
-  <span class="section-head__action"><a href="/pages/news_archives.html">Archive →</a></span>
-</div>
+<section class="surface-light">
+  <div class="section-head section-head--on-light">
+    <h2>News</h2>
+    <span class="section-head__action"><a href="/pages/news_archives.html">Archive →</a></span>
+  </div>
 
-{% include news.html %}
+  {% include news.html %}
+</section>
 
 <div class="section-head">
   <h2>Selected Talks</h2>
