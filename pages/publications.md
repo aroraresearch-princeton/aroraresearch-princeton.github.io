@@ -35,4 +35,4 @@ Please also check our google scholar pages and arxiv for latest works
 {% include publications.html %}
 
 
-[back](/index.html)
+<a class="back-link" href="/index.html">Back home</a>

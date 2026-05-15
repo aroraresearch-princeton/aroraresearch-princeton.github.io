@@ -17,4 +17,4 @@ layout: default
 {% include alumni.html %}
 
 
-[back](/index.html)
+<a class="back-link" href="/index.html">Back home</a>

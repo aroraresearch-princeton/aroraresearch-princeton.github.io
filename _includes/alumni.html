@@ -1,12 +1,13 @@
-<div class="person person-former">
+<div class="person-former">
     <ul>
         {% for hash in site.data.people %}
-        
-        {% assign person = hash[1] %}
-        {% if person.status == "former" %}
-            <li><a href="{{ person.website }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a> ({{ person.attr
-            }})</li>
-        {% endif %}
+            {% assign person = hash[1] %}
+            {% if person.status == "former" %}
+                <li>
+                    <a href="{{ person.website }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                    <span style="color: var(--color-ink-subtle);">— {{ person.attr }}</span>
+                </li>
+            {% endif %}
         {% endfor %}
     </ul>
 </div>

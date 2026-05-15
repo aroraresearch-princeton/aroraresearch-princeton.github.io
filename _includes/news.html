@@ -1,39 +1,26 @@
-<style>
-    table,
-    tr,
-    td {
-        border: none;
-    }
-</style>
-
-<div style="height:250px;overflow:auto;border:0px;border-collapse: collapse;">
-    <table border="none" style="border:0px;border-collapse: collapse;" rules="none">
-        <colgroup>
-            <col span="1" style="width: 12%;">
-            <col span="1" style="width: 88%;">
-        </colgroup>
-        <tbody>
-            {% for hash in site.data.news %}
-            {% assign news = hash[1] %}
-            <tr>
-                {% if news.status == "new" %}
+<div class="news">
+    {% for hash in site.data.news %}
+        {% assign news = hash[1] %}
+        {% if news.status == "new" %}
+            <div class="news__row">
+                <span class="news__date">{{ news.date }}</span>
+                <div class="news__body">
                     {% if news.type == "paper" %}
-                        <td><b>[{{ news.date }}]</b></td>
+                        <span class="news__tag news__tag--paper">Paper</span>
                         {% if news.venue %}
-                            <td> New paper <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a> was accepted to {{ news.venue }}! </td>
+                            New paper <a href="{{ news.paper_link }}"><em>{{ news.paper_title }}</em></a> was accepted to {{ news.venue }}.
                         {% else %}
-                            <td> Check out our new paper <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a>!</td>
+                            Check out our new paper <a href="{{ news.paper_link }}"><em>{{ news.paper_title }}</em></a>.
                         {% endif %}
                     {% elsif news.type == "news" %}
-                        <td><b>[{{ news.date }}]</b></td>
-                        <td> <a href="{{ news.news_link }}">{{ news.host }}</a> {{ news.content }}!</td>
+                        <span class="news__tag news__tag--news">News</span>
+                        <a href="{{ news.news_link }}">{{ news.host }}</a> {{ news.content }}.
                     {% elsif news.type == "award" %}
-                        <td><b>[{{ news.date }}]</b></td>
-                        <td>{{ news.content }}</td>
+                        <span class="news__tag news__tag--award">Award</span>
+                        {{ news.content }}
                     {% endif %}
-                {% endif %}
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>
