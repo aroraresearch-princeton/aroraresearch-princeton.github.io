@@ -3,24 +3,24 @@
         {% assign person = hash[1] %}
         {% if person.status == status %}
             {% if person.status == "principal investigator" %}
-                <div class="person person--pi">
+                <a class="person person--pi" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">
                     <img src="{{ person.photo }}" alt="{{ person.name }}" />
                     <div class="person__info">
-                        <a class="person__name" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                        <span class="person__name">{{ person.name }}</span>
                         <span class="person__title">{{ person.title }}</span>
                         {% if person.title2 %}
                             <span class="person__title">{{ person.title2 }}</span>
                         {% endif %}
                     </div>
-                </div>
+                </a>
             {% elsif person.status == "current" %}
-                <div class="person">
+                <a class="person" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">
                     <img src="{{ person.photo }}" alt="{{ person.name }}" />
                     <div class="person__info">
-                        <a class="person__name" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                        <span class="person__name">{{ person.name }}</span>
                         <span class="person__title">{{ person.title }}</span>
                     </div>
-                </div>
+                </a>
             {% endif %}
         {% endif %}
     {% endfor %}
