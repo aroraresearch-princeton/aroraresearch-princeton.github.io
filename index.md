@@ -13,19 +13,25 @@ layout: default
     very effective pipelines for improving AI models using synthetic training data.
     Many of our papers involve mathematical analysis as well as experiments.
   </p>
+  <ul class="topic-tags" aria-label="Research areas">
+    <li>LLM Training Dynamics</li>
+    <li>Optimization &amp; Theory</li>
+    <li>Skills &amp; Synthetic Data</li>
+    <li>Alignment &amp; Reward Models</li>
+    <li>Reasoning</li>
+    <li>Interpretability &amp; Evaluation</li>
+  </ul>
   <div class="hero__image">
     <img src="/assets/img/group-photo-2024.jpg" alt="Arora Research Lab group photo, 2024" />
   </div>
 </section>
 
-<section class="surface-light">
-  <div class="section-head section-head--on-light">
-    <h2>News</h2>
-    <span class="section-head__action"><a href="/pages/news_archives.html">Archive →</a></span>
-  </div>
+<div class="section-head">
+  <h2>News</h2>
+  <span class="section-head__action"><a href="/pages/news_archives.html">Archive →</a></span>
+</div>
 
-  {% include news.html %}
-</section>
+{% include news.html %}
 
 <div class="section-head">
   <h2>Selected Talks</h2>

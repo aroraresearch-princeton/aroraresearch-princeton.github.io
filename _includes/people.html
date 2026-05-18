@@ -1,26 +1,35 @@
+{%- comment -%}
+  Renders a grid of people whose `status` matches the {{ status }} variable.
+  The card root is an <a> when the person has a `website`, otherwise a <div>.
+{%- endcomment -%}
 <div class="people-grid">
     {% for hash in site.data.people %}
         {% assign person = hash[1] %}
         {% if person.status == status %}
+            {% assign person_class = "person" %}
             {% if person.status == "principal investigator" %}
-                <a class="person person--pi" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">
-                    <img src="{{ person.photo }}" alt="{{ person.name }}" />
-                    <div class="person__info">
-                        <span class="person__name">{{ person.name }}</span>
-                        <span class="person__title">{{ person.title }}</span>
-                        {% if person.title2 %}
-                            <span class="person__title">{{ person.title2 }}</span>
-                        {% endif %}
-                    </div>
+                {% assign person_class = "person person--pi" %}
+            {% endif %}
+
+            {% if person.website and person.website != "" %}
+                <a class="{{ person_class }}" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">
+            {% else %}
+                <div class="{{ person_class }}">
+            {% endif %}
+
+                <img src="{{ person.photo }}" alt="{{ person.name }}" />
+                <div class="person__info">
+                    <span class="person__name">{{ person.name }}</span>
+                    <span class="person__title">{{ person.title }}</span>
+                    {% if person.title2 %}
+                        <span class="person__title">{{ person.title2 }}</span>
+                    {% endif %}
+                </div>
+
+            {% if person.website and person.website != "" %}
                 </a>
-            {% elsif person.status == "current" %}
-                <a class="person" href="{{ person.website }}" target="_blank" rel="noreferrer noopener">
-                    <img src="{{ person.photo }}" alt="{{ person.name }}" />
-                    <div class="person__info">
-                        <span class="person__name">{{ person.name }}</span>
-                        <span class="person__title">{{ person.title }}</span>
-                    </div>
-                </a>
+            {% else %}
+                </div>
             {% endif %}
         {% endif %}
     {% endfor %}
