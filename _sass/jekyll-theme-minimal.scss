@@ -556,19 +556,59 @@ th { color: var(--color-ink); font-weight: 500; }
   padding: 0;
   margin: 0;
 }
-.publications li {
+.pub {
+  display: grid;
+  gap: 2px;
   padding: var(--s-md) 0;
   border-bottom: 1px solid var(--color-hairline);
-  color: var(--color-ink-muted);
+}
+.pub:last-child { border-bottom: none; }
+.pub__title {
   font-size: 15px;
-  line-height: 1.5;
-}
-.publications li:last-child { border-bottom: none; }
-.publications li a {
-  color: var(--color-ink);
   font-weight: 500;
+  color: var(--color-ink);
+  line-height: 1.4;
+  letter-spacing: -0.1px;
 }
-.publications li a:hover { color: var(--color-primary-hover); }
+.pub__title:hover { color: var(--color-primary); }
+.pub__venue {
+  font-size: 13px;
+  color: var(--color-ink-subtle);
+  font-style: normal;
+}
+.pub__authors {
+  font-size: 13px;
+  color: var(--color-ink-muted);
+  margin-top: 2px;
+}
+.pub__authors strong {
+  font-weight: 600;
+  color: var(--color-ink);
+}
+.pub__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-xs);
+  margin-top: var(--s-xs);
+}
+.pub__link {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: var(--color-ink-subtle);
+  background: var(--color-surface-1);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--r-xs);
+  padding: 2px 8px;
+  transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
+}
+.pub__link:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary-focus);
+  background: var(--color-canvas);
+}
 
 /* ───────────────────────────────────────────────────────────────
    Talks

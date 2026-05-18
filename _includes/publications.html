@@ -1,12 +1,48 @@
+{%- comment -%}
+  Renders publications whose `year == year`.
+  Authors matching a lab member's `name` (current or former, from
+  _data/people.yml) are bolded so visitors can see at a glance which
+  authors belong to the group.
+
+  Each paper supports up to three optional link fields:
+    link  — primary URL (arXiv page if applicable)
+    pdf   — direct PDF
+    code  — repository
+    project — project page / blog post
+{%- endcomment -%}
+
+{%- capture lab_names -%}
+  {%- for hash in site.data.people -%}|{{ hash[1].name }}|{%- endfor -%}
+{%- endcapture -%}
+
 <div class="publications">
     <ul>
         {% for hash in site.data.publications %}
             {% assign paper = hash[1] %}
             {% if paper.year == year %}
-                <li>
-                    <a href="{{ paper.link }}">{{ paper.title }}</a>.
-                    <span style="color: var(--color-ink-subtle);">{{ paper.venue }}</span>
-                    <span style="display:block; font-size:13px; color: var(--color-ink-subtle); margin-top:2px;">{{ paper.authors }}</span>
+                <li class="pub">
+                    <a class="pub__title" href="{{ paper.link }}">{{ paper.title }}</a>
+                    {% if paper.venue %}<span class="pub__venue">{{ paper.venue }}</span>{% endif %}
+
+                    <div class="pub__authors">
+                        {%- assign authors_list = paper.authors | split: ", " -%}
+                        {%- for author in authors_list -%}
+                            {%- assign needle = "|" | append: author | append: "|" -%}
+                            {%- if lab_names contains needle -%}
+                                <strong>{{ author }}</strong>
+                            {%- else -%}
+                                {{ author }}
+                            {%- endif -%}
+                            {%- unless forloop.last %}, {% endunless -%}
+                        {%- endfor -%}
+                    </div>
+
+                    <div class="pub__links">
+                        {% if paper.link %}<a class="pub__link" href="{{ paper.link }}" target="_blank" rel="noreferrer noopener" aria-label="arXiv">arXiv</a>{% endif %}
+                        {% if paper.pdf %}<a class="pub__link" href="{{ paper.pdf }}" target="_blank" rel="noreferrer noopener" aria-label="PDF">PDF</a>{% endif %}
+                        {% if paper.code %}<a class="pub__link" href="{{ paper.code }}" target="_blank" rel="noreferrer noopener" aria-label="Code">code</a>{% endif %}
+                        {% if paper.project %}<a class="pub__link" href="{{ paper.project }}" target="_blank" rel="noreferrer noopener" aria-label="Project page">project</a>{% endif %}
+                    </div>
                 </li>
             {% endif %}
         {% endfor %}
