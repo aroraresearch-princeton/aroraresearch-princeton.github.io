@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light">
     <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -33,10 +34,18 @@
 
       <footer class="site-footer">
         <div class="site-footer__inner">
-          <span>© {{ site.time | date: '%Y' }} {{ site.title | default: site.github.repository_name }}.</span>
-          <span>
-            Princeton University · Department of Computer Science
-          </span>
+          <div class="site-footer__col">
+            <span class="site-footer__title">{{ site.title | default: site.github.repository_name }}</span>
+            <span>Princeton University · Computer Science</span>
+            <span>35 Olden Street, Princeton, NJ 08540</span>
+          </div>
+          <div class="site-footer__col site-footer__links">
+            <a href="https://scholar.google.com/citations?user=cp4HFzwAAAAJ" target="_blank" rel="noreferrer noopener">Google Scholar</a>
+            <a href="https://github.com/aroraresearch-princeton" target="_blank" rel="noreferrer noopener">GitHub</a>
+            <a href="https://pli.princeton.edu/" target="_blank" rel="noreferrer noopener">Princeton Language &amp; Intelligence</a>
+            <a href="mailto:arora@cs.princeton.edu">arora@cs.princeton.edu</a>
+          </div>
+          <div class="site-footer__col site-footer__copy">© {{ site.time | date: '%Y' }} Arora Research Lab</div>
         </div>
       </footer>
     </div>
