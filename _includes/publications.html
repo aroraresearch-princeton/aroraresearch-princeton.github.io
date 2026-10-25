@@ -1,14 +1,28 @@
 {%- comment -%}
-  Renders publications whose `year == year`.
-  Authors matching a lab member's `name` (current or former, from
-  _data/people.yml) are bolded so visitors can see at a glance which
-  authors belong to the group.
+  Renders one section of _data/publications.yml. Pass exactly one of:
+    preprints=true  — papers with no main venue yet
+    year=2026       — published papers whose `year` is 2026
+    before=2019     — published papers whose `year` is earlier than 2019
 
-  Each paper supports up to three optional link fields:
-    link  — primary URL (arXiv page if applicable)
-    pdf   — direct PDF
-    code  — repository
-    project — project page / blog post
+  A paper counts as a preprint when every part of its `venue` is "Preprint"
+  or a workshop. The first other part is its main venue, which the BibTeX
+  entry cites.
+
+  Authors matching a lab member's `name` (current or former, from
+  _data/people.yml) are bolded.
+
+  In `venue`, put each honor (Oral, Spotlight, Best Paper, and so on) in
+  parentheses right after the venue it belongs to, for example
+  "ICLR 2025 (Oral)". The parenthesized text is highlighted, so use
+  parentheses only for honors.
+
+  Optional fields:
+    link     — primary URL; labeled "paper" unless it is an arXiv page
+    arxiv    — arXiv ID, for example "2503.01821"
+    abstract — shown behind the "abstract" toggle
+    pdf      — direct PDF
+    code     — code or data repository
+    project  — project page or blog post
 {%- endcomment -%}
 
 {%- capture lab_names -%}
@@ -17,12 +31,35 @@
 
 <div class="publications">
     <ul>
-        {% for hash in site.data.publications %}
-            {% assign paper = hash[1] %}
-            {% if paper.year == year %}
+        {%- for hash in site.data.publications %}
+            {%- assign key = hash[0] -%}
+            {%- assign paper = hash[1] -%}
+
+            {%- assign main_venue = "" -%}
+            {%- assign venue_parts = paper.venue | split: ", " -%}
+            {%- for part in venue_parts -%}
+                {%- unless part == "Preprint" or part contains "Workshop" -%}
+                    {%- if main_venue == "" -%}{%- assign main_venue = part | split: " (" | first -%}{%- endif -%}
+                {%- endunless -%}
+            {%- endfor -%}
+
+            {%- assign show = false -%}
+            {%- if include.preprints -%}
+                {%- if main_venue == "" -%}{%- assign show = true -%}{%- endif -%}
+            {%- elsif main_venue != "" -%}
+                {%- if include.year and paper.year == include.year -%}{%- assign show = true -%}{%- endif -%}
+                {%- if include.before and paper.year < include.before -%}{%- assign show = true -%}{%- endif -%}
+            {%- endif -%}
+
+            {%- if show %}
+                {%- if paper.arxiv -%}{%- capture arxiv_url -%}https://arxiv.org/abs/{{ paper.arxiv }}{%- endcapture -%}{%- else -%}{%- assign arxiv_url = nil -%}{%- endif -%}
                 <li class="pub">
-                    <a class="pub__title" href="{{ paper.link }}">{{ paper.title }}</a>
-                    {% if paper.venue %}<span class="pub__venue">{{ paper.venue }}</span>{% endif %}
+                    <a class="pub__title" href="{{ paper.link | default: arxiv_url }}">{{ paper.title }}</a>
+                    {%- if paper.venue and paper.venue != "Preprint" %}
+                    <span class="pub__venue">{{ paper.venue | remove: "Preprint, " | replace: "(", '<span class="pub__honor">(' | replace: ")", ")</span>" }}</span>
+                    {%- elsif paper.arxiv %}
+                    <span class="pub__venue">arXiv {{ paper.arxiv }}</span>
+                    {%- endif %}
 
                     <div class="pub__authors">
                         {%- assign authors_list = paper.authors | split: ", " -%}
@@ -38,13 +75,71 @@
                     </div>
 
                     <div class="pub__links">
-                        {% if paper.link %}<a class="pub__link" href="{{ paper.link }}" target="_blank" rel="noreferrer noopener" aria-label="arXiv">arXiv</a>{% endif %}
-                        {% if paper.pdf %}<a class="pub__link" href="{{ paper.pdf }}" target="_blank" rel="noreferrer noopener" aria-label="PDF">PDF</a>{% endif %}
-                        {% if paper.code %}<a class="pub__link" href="{{ paper.code }}" target="_blank" rel="noreferrer noopener" aria-label="Code">code</a>{% endif %}
-                        {% if paper.project %}<a class="pub__link" href="{{ paper.project }}" target="_blank" rel="noreferrer noopener" aria-label="Project page">project</a>{% endif %}
+                        <button type="button" class="pub__link pub__toggle" aria-expanded="false" aria-controls="bib-{{ key }}">bib</button>
+                        {%- if paper.abstract %}
+                        <button type="button" class="pub__link pub__toggle" aria-expanded="false" aria-controls="abs-{{ key }}">abstract</button>
+                        {%- endif -%}
+                        {%- if arxiv_url %}
+                        <a class="pub__link" href="{{ arxiv_url }}" target="_blank" rel="noreferrer noopener">arXiv</a>
+                        {%- endif -%}
+                        {%- if paper.link and paper.link != arxiv_url %}{% unless paper.link contains "arxiv.org" %}
+                        <a class="pub__link" href="{{ paper.link }}" target="_blank" rel="noreferrer noopener">paper</a>
+                        {%- endunless %}{% endif -%}
+                        {%- if paper.pdf %}
+                        <a class="pub__link" href="{{ paper.pdf }}" target="_blank" rel="noreferrer noopener">PDF</a>
+                        {%- endif -%}
+                        {%- if paper.code %}
+                        <a class="pub__link" href="{{ paper.code }}" target="_blank" rel="noreferrer noopener">code / data</a>
+                        {%- endif -%}
+                        {%- if paper.project %}
+                        <a class="pub__link" href="{{ paper.project }}" target="_blank" rel="noreferrer noopener">project</a>
+                        {%- endif %}
                     </div>
+
+                    {%- comment -%} BibTeX uses the main venue and its year. {%- endcomment -%}
+                    {%- assign bib_year = paper.year -%}
+                    {%- assign tokens = main_venue | split: " " -%}
+                    {%- for token in tokens -%}
+                        {%- assign n = token | plus: 0 -%}
+                        {%- if n > 1900 and n < 2100 -%}{%- assign bib_year = n -%}{%- endif -%}
+                    {%- endfor -%}
+                    {%- assign bib_authors = paper.authors | replace: ", ", " and " -%}
+                    {%- if main_venue == "" -%}
+                        {%- if paper.arxiv -%}
+                            {%- capture bib -%}@article{ {{- key }},
+  title={ {{- paper.title }}},
+  author={ {{- bib_authors }}},
+  journal={arXiv preprint arXiv:{{ paper.arxiv }}},
+  year={ {{- paper.year }}}
+}{%- endcapture -%}
+                        {%- else -%}
+                            {%- capture bib -%}@misc{ {{- key }},
+  title={ {{- paper.title }}},
+  author={ {{- bib_authors }}},
+  year={ {{- paper.year }}}
+}{%- endcapture -%}
+                        {%- endif -%}
+                    {%- elsif main_venue contains "TMLR" or main_venue contains "Journal" or main_venue contains "Transactions" or main_venue contains "Science" or main_venue contains "Communications" or main_venue contains "Notices" or main_venue contains "NeuroImage" -%}
+                        {%- capture bib -%}@article{ {{- key }},
+  title={ {{- paper.title }}},
+  author={ {{- bib_authors }}},
+  journal={ {{- main_venue }}},
+  year={ {{- bib_year }}}
+}{%- endcapture -%}
+                    {%- else -%}
+                        {%- capture bib -%}@inproceedings{ {{- key }},
+  title={ {{- paper.title }}},
+  author={ {{- bib_authors }}},
+  booktitle={ {{- main_venue }}},
+  year={ {{- bib_year }}}
+}{%- endcapture -%}
+                    {%- endif %}
+                    <pre class="pub__extra" id="bib-{{ key }}" hidden>{{ bib | escape }}</pre>
+                    {%- if paper.abstract %}
+                    <p class="pub__extra" id="abs-{{ key }}" hidden>{{ paper.abstract | escape }}</p>
+                    {%- endif %}
                 </li>
-            {% endif %}
-        {% endfor %}
+            {%- endif -%}
+        {%- endfor %}
     </ul>
 </div>

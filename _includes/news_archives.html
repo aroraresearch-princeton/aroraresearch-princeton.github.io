@@ -5,11 +5,11 @@
 
             {% if news.status == "archive" %}
                 {% if news.type == "paper" %}
-                    <li><b>[{{ news.date }}]</b> New paper <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a> was accepted by {{ news.venue }}!</li>
+                    <li><b>[{{ news.date }}]</b> {% if news.venue %}<a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a> was accepted to {{ news.venue }}.{% else %}New paper: <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a>{% endif %}</li>
                 {% elsif news.type == "news" %}
-                    <li><b>[{{ news.date }}]</b> Our work <a href="{{ news.paper_link }}"><i>{{ news.paper_title }}</i></a> {{ news.content }} <a href="{{ news.news_link }}">{{ news.host }}</a>!</li>
+                    <li><b>[{{ news.date }}]</b> <a href="{{ news.news_link }}">{{ news.host }}</a> {{ news.content }}.</li>
                 {% elsif news.type == "graduate"%}
-                    <li><b>[{{ news.date }}]</b> {{ news.content }}. Congratulations!</li>
+                    <li><b>[{{ news.date }}]</b> {{ news.content }}</li>
                 {% elsif news.type == "award" %}
                     <li><b>[{{ news.date }}]</b> {{ news.content }}</li>
                 {% endif %}

@@ -1,5 +1,22 @@
 title: Arora Research Lab
-logo: 
+logo:
 description: Arora Research Lab @ Princeton
 google_analytics:
-theme: jekyll-theme-minimal
+
+# The site supplies its own layouts and styles, so it uses no theme gem.
+# Without this line, GitHub Pages applies jekyll-theme-primer by default.
+theme: null
+
+# Provides the {% seo %} tag in _layouts/default.html.
+plugins:
+  - jekyll-seo-tag
+
+# Repository files that are not part of the website. Setting this list
+# replaces Jekyll's defaults, so it also names the Ruby tooling files.
+exclude:
+  - DESIGN.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

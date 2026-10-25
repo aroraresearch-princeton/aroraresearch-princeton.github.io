@@ -1,10 +1,235 @@
+mini-lean-agent:
+  type: paper
+  paper_title: 'Do Theorem Provers Need Theorem-Proving Agents? mini-Lean-agent: A Coding-Agent Baseline for Lean'
+  paper_link: https://arxiv.org/abs/2610.17331
+  date: 10/2026
+  status: new
+
+thinking-tokens-safety-neurips:
+  type: paper
+  paper_title: 'Do Thinking Tokens Help with Safety?'
+  paper_link: https://arxiv.org/abs/2606.25013
+  venue: NeurIPS 2026 <b>(Spotlight)</b>
+  date: 09/2026
+  status: new
+
+rethinking-opsd-neurips:
+  type: paper
+  paper_title: 'Rethinking On-Policy Self-Distillation for Thinking Models'
+  paper_link: https://arxiv.org/abs/2607.05184
+  venue: NeurIPS 2026
+  date: 09/2026
+  status: new
+
+skill-native-neurips:
+  type: paper
+  paper_title: 'Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning'
+  paper_link: https://arxiv.org/abs/2608.05139
+  venue: NeurIPS 2026
+  date: 09/2026
+  status: new
+
+rl-skill-composition-neurips:
+  type: paper
+  paper_title: 'How Does RL Post-training Induce Skill Composition? A Case Study on Countdown'
+  paper_link: https://arxiv.org/abs/2512.01775
+  venue: NeurIPS 2026
+  date: 09/2026
+  status: new
+
+cognitive-well-neurips:
+  type: paper
+  paper_title: 'Escaping the Cognitive Well: Efficient Competition Math with Off-the-Shelf Models'
+  paper_link: https://arxiv.org/abs/2602.16793
+  venue: NeurIPS 2026 <b>(Oral)</b>
+  date: 09/2026
+  status: new
+
+t2mlr:
+  type: paper
+  paper_title: 'T²MLR: Transformer with Temporal Middle-Layer Recurrence'
+  paper_link: https://arxiv.org/abs/2607.15178
+  date: 07/2026
+  status: new
+
+thinking-tokens-safety-award:
+  type: award
+  content: '<a href="https://arxiv.org/abs/2606.25013"><i>Do Thinking Tokens Help with Safety?</i></a> won the Best Paper Award at the ICML 2026 AI4Good Workshop.'
+  date: 07/2026
+  status: new
+
+goedel-architect:
+  type: paper
+  paper_title: 'Goedel-Architect: Streamlining Formal Theorem Proving with Blueprint Generation and Refinement'
+  paper_link: https://arxiv.org/abs/2606.06468
+  date: 06/2026
+  status: new
+
+sd-zero-award:
+  type: award
+  content: '<a href="https://arxiv.org/abs/2604.12002"><i>Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision</i></a> won the Best Paper Award at the ICML 2026 RLxF Workshop.'
+  date: 06/2026
+  status: new
+
+thinking-tokens-icml:
+  type: paper
+  paper_title: 'Rethinking Thinking Tokens: LLMs as Improvement Operators'
+  paper_link: https://arxiv.org/abs/2510.01123
+  venue: ICML 2026
+  date: 05/2026
+  status: new
+
+algoveri-icml:
+  type: paper
+  paper_title: 'AlgoVeri: An Aligned Benchmark for Verified Code Generation on Classical Algorithms'
+  paper_link: https://arxiv.org/abs/2602.09464
+  venue: ICML 2026
+  date: 05/2026
+  status: new
+
+################ News Archives ################
+contextual-drag-award:
+  type: award
+  content: '<a href="https://arxiv.org/abs/2602.04288"><i>Contextual Drag: How Errors in the Context Affect LLM Reasoning</i></a> won the Best Paper Award at the ICLR 2026 Workshop on AI with Recursive Self-Improvement.'
+  date: 04/2026
+  status: archive
+
+unrealized-expectations-tmlr:
+  type: paper
+  paper_title: 'Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set'
+  paper_link: https://arxiv.org/abs/2502.03669
+  venue: TMLR
+  date: 04/2026
+  status: archive
+
+imperfect-rewards:
+  type: paper
+  paper_title: 'When Errors Can Be Beneficial: A Categorization of Imperfect Rewards for Policy Gradient'
+  paper_link: https://arxiv.org/abs/2604.25872
+  date: 04/2026
+  status: archive
+
+sd-zero:
+  type: paper
+  paper_title: 'Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision'
+  paper_link: https://arxiv.org/abs/2604.12002
+  date: 04/2026
+  status: archive
+
+contextual-drag:
+  type: paper
+  paper_title: 'Contextual Drag: How Errors in the Context Affect LLM Reasoning'
+  paper_link: https://arxiv.org/abs/2602.04288
+  date: 02/2026
+  status: archive
+
+poor-implicit-reward-iclr:
+  type: paper
+  paper_title: 'Why is Your Language Model a Poor Implicit Reward Model?'
+  paper_link: https://arxiv.org/abs/2507.07981
+  venue: ICLR 2026
+  date: 01/2026
+  status: archive
+
+goedel-prover-v2-iclr:
+  type: paper
+  paper_title: 'Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction'
+  paper_link: https://arxiv.org/abs/2508.03613
+  venue: ICLR 2026
+  date: 01/2026
+  status: archive
+
+stat-iclr:
+  type: paper
+  paper_title: 'Skill-Targeted Adaptive Training'
+  paper_link: https://arxiv.org/abs/2510.10023
+  venue: ICLR 2026
+  date: 01/2026
+  status: archive
+
+poor-implicit-reward-award:
+  type: award
+  content: '<a href="https://arxiv.org/abs/2507.07981"><i>Why is Your Language Model a Poor Implicit Reward Model?</i></a> received a Best Paper Runner-up Award at the NeurIPS 2025 Workshop on Reliable ML from Unreliable Data.'
+  date: 12/2025
+  status: archive
+
+retrain-equivalence:
+  type: paper
+  paper_title: 'On the Impossibility of Retrain Equivalence in Machine Unlearning'
+  paper_link: https://arxiv.org/abs/2510.16629
+  date: 10/2025
+  status: archive
+
+good-teacher-neurips:
+  type: paper
+  paper_title: 'What Makes a Reward Model a Good Teacher? An Optimization Perspective'
+  paper_link: https://arxiv.org/abs/2503.15477
+  venue: NeurIPS 2025 <b>(Spotlight)</b>
+  date: 09/2025
+  status: archive
+
+ineq-comp-neurips:
+  type: paper
+  paper_title: 'Ineq-Comp: Benchmarking Human-Intuitive Compositional Reasoning in Automated Theorem Proving on Inequalities'
+  paper_link: https://arxiv.org/abs/2505.12680
+  venue: the NeurIPS 2025 Datasets and Benchmarks Track
+  date: 09/2025
+  status: archive
+
+livecodebench-pro-neurips:
+  type: paper
+  paper_title: 'LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?'
+  paper_link: https://arxiv.org/abs/2506.11928
+  venue: NeurIPS 2025
+  date: 09/2025
+  status: archive
+
+ai-policy-science:
+  type: paper
+  paper_title: 'Advancing Science- and Evidence-based AI Policy'
+  paper_link: https://arxiv.org/abs/2508.02748
+  venue: <i>Science</i>
+  date: 07/2025
+  status: archive
+
+goedel-prover-colm:
+  type: paper
+  paper_title: 'Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving'
+  paper_link: https://arxiv.org/abs/2502.07640
+  venue: COLM 2025
+  date: 07/2025
+  status: archive
+
+adaptmi-colm:
+  type: paper
+  paper_title: 'AdaptMI: Adaptive Skill-based In-context Math Instruction for Small Language Models'
+  paper_link: https://arxiv.org/abs/2505.00147
+  venue: COLM 2025
+  date: 07/2025
+  status: archive
+
+poor-implicit-reward:
+  type: paper
+  paper_title: 'Why is Your Language Model a Poor Implicit Reward Model?'
+  paper_link: https://arxiv.org/abs/2507.07981
+  date: 07/2025
+  status: archive
+
+weak-to-strong-icml:
+  type: paper
+  paper_title: 'Weak-to-Strong Generalization Even in Random Feature Networks, Provably'
+  paper_link: https://arxiv.org/abs/2503.02877
+  venue: ICML 2025
+  date: 05/2025
+  status: archive
+
 context-enhanced:
   type: paper
   paper_title: 'On the Power of Context-Enhanced Learning in LLMs'
   paper_link: https://arxiv.org/abs/2503.01821
   venue: ICML 2025 <b>(Spotlight)</b>
   date: 05/2025
-  status: new
+  status: archive
 
 vlm-s2h:
   type: paper
@@ -12,41 +237,34 @@ vlm-s2h:
   paper_link: https://arxiv.org/abs/2501.02669
   venue: ICML 2025
   date: 05/2025
-  status: new
-
-poor-implicit-reward:
-  type: paper
-  paper_title: 'Why is Your Language Model a Poor Implicit Reward Model?'
-  paper_link: https://arxiv.org/abs/2507.07981
-  date: 05/2025
-  status: new
+  status: archive
 
 abhishek_apple_scholar:
   type: award
-  content: Congrats to Abhishek Panigrahi on being named 2025 Apple Scholar in AIML!
+  content: Abhishek Panigrahi was named a 2025 Apple Scholar in AI/ML.
   date: 03/2025
-  status: new
+  status: archive
 
 good-reward:
   type: paper
   paper_title: 'What Makes a Reward Model a Good Teacher? An Optimization Perspective'
   paper_link: https://arxiv.org/abs/2503.15477
   date: 03/2025
-  status: new
+  status: archive
 
 goedel-prover: 
   type: paper
   paper_title: 'Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving'
   paper_link: https://arxiv.org/abs/2502.07640
   date: 02/2025
-  status: new
+  status: archive
 
 unrealized-expectation:
   type: paper
   paper_title: 'Unrealized Expectations: Comparing AI Methods vs Classical Algorithms for Maximum Independent Set'
   paper_link: https://arxiv.org/abs/2502.03669
   date: 02/2025
-  status: new
+  status: archive
 
 instruct-skillmix:
   type: paper
@@ -54,7 +272,7 @@ instruct-skillmix:
   paper_link: https://arxiv.org/abs/2408.14774
   venue: ICLR 2025
   date: 01/2025
-  status: new
+  status: archive
 
 progressive-distillation:
   type: paper
@@ -62,7 +280,7 @@ progressive-distillation:
   paper_link: https://arxiv.org/abs/2410.05464
   venue: ICLR 2025 <b>(Oral)</b>
   date: 01/2025
-  status: new
+  status: archive
 
 unintentional-unalignment:
   type: paper
@@ -70,7 +288,7 @@ unintentional-unalignment:
   paper_link: https://arxiv.org/abs/2410.08847
   venue: ICLR 2025
   date: 01/2025
-  status: new
+  status: archive
 
 provable-unlearning:
   type: paper
@@ -78,7 +296,7 @@ provable-unlearning:
   paper_link: https://arxiv.org/abs/2411.12600
   venue: ICLR 2025
   date: 01/2025
-  status: new
+  status: archive
 
 adaptive-data:
   type: paper
@@ -86,7 +304,7 @@ adaptive-data:
   paper_link: https://arxiv.org/abs/2410.11820
   venue: ICLR 2025
   date: 01/2025
-  status: new
+  status: archive
 
 muse:
   type: paper
@@ -94,20 +312,19 @@ muse:
   paper_link: https://arxiv.org/abs/2407.06460
   venue: ICLR 2025
   date: 01/2025
-  status: new
+  status: archive
 
-################ News Archives ################
 quanta-skills-youtube:
   type: news
   news_link: https://www.youtube.com/watch?v=fTMMsreAqX0
-  content: featured our work on emergence of skill compositionality (and its limitations) in LLMs among the CS breakthroughs of the year
+  content: listed our work on skill composition in LLMs, and its limits, among the year's computer science breakthroughs
   host: Quanta Magazine
   date: 12/2024
   status: archive
 
 sadhika_siebel_scholar:
   type: award
-  content: Congrats to Sadhika Malladi on being named 2025 Siebel Scholar!
+  content: Sadhika Malladi was named a 2025 Siebel Scholar.
   date: 09/2024
   status: archive
 
@@ -154,7 +371,7 @@ less:
 quanta-skills:
   type: news
   news_link: https://www.quantamagazine.org/new-theory-suggests-chatbots-can-understand-text-20240122/
-  content: features our work on emergence of complex skills in LLMs and SkillMix evaluation
+  content: featured our work on the emergence of complex skills in LLMs and the Skill-Mix evaluation
   host: Quanta Magazine
   date: 01/2024
   status: archive
@@ -171,7 +388,7 @@ mezo:
   type: paper
   paper_title: Fine-Tuning Language Models with Just Forward Passes
   paper_link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/a627810151be4d13f907ac898ff7e948-Abstract-Conference.html
-  venue: NeurIPS 2023 Oral
+  venue: NeurIPS 2023 <b>(Oral)</b>
   date: 09/2023
   status: archive
 
@@ -194,27 +411,27 @@ kernel_ft:
 instahide_bell_lab:
   type: news
   paper_title: 'InstaHide: Instance-hiding Schemes for Private Distributed Learning'
-  paper_link: http://proceedings.mlr.press/v119/huang20i.html
+  paper_link: https://proceedings.mlr.press/v119/huang20i.html
   news_link: https://www.nokia.com/about-us/news/releases/2020/12/03/nokia-announces-2020-bell-labs-prize-winners/
-  content: is runner-up for
-  host: Bell Labs Innovation prize
+  content: named <a href="https://proceedings.mlr.press/v119/huang20i.html"><i>InstaHide</i></a> a runner-up for the 2020 Bell Labs Prize
+  host: Nokia Bell Labs
   date: 12/2020
   status: archive
 
 andrej_yuanzhi_nadav:
   type: graduate
-  content: Andrej Risteski & Yuanzhi Li -->  CMU, Nadav Cohen --> Tel Aviv.
+  content: Andrej Risteski and Yuanzhi Li joined CMU, and Nadav Cohen joined Tel Aviv University.
   date: 09/2019
   status: archive
 
 tengyu_yingyu:
   type: graduate
-  content: Tengyu Ma --> Stanford, Yingyu Liang --> Madison
+  content: Tengyu Ma joined Stanford, and Yingyu Liang joined UW–Madison.
   date: 09/2017
   status: archive
 
 tengyu_best_paper:
   type: award
-  content: Tengyu Ma received best student paper at NIPS'16!
+  content: Tengyu Ma received the Best Student Paper Award at NIPS 2016.
   date: 09/2016
   status: archive

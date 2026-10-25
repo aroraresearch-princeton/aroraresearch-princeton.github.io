@@ -31,6 +31,7 @@
 
   /* Semantic */
   --color-success: #1e7d36;
+  --color-honor:   #b45309;  /* Publication honors such as Oral or Best Paper */
 
   /* Aliases retained for any explicit "on-light" component overrides
      (now identical to the main tokens since the whole site is light). */
@@ -289,13 +290,6 @@ th { color: var(--color-ink); font-weight: 500; }
   display: grid;
   gap: var(--s-xl);
   margin-bottom: var(--s-section);
-}
-.hero__eyebrow {
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-  color: var(--color-primary);
-  text-transform: uppercase;
 }
 .hero__title {
   font-size: 64px;
@@ -606,6 +600,10 @@ th { color: var(--color-ink); font-weight: 500; }
   color: var(--color-ink-subtle);
   font-style: normal;
 }
+.pub__honor {
+  color: var(--color-honor);
+  font-weight: 600;
+}
 .pub__authors {
   font-size: 13px;
   color: var(--color-ink-muted);
@@ -625,7 +623,6 @@ th { color: var(--color-ink); font-weight: 500; }
   font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 500;
-  text-transform: lowercase;
   letter-spacing: 0;
   color: var(--color-ink-subtle);
   background: var(--color-surface-1);
@@ -638,6 +635,42 @@ th { color: var(--color-ink); font-weight: 500; }
   color: var(--color-primary);
   border-color: var(--color-primary-focus);
   background: var(--color-canvas);
+}
+.pub__toggle {
+  cursor: pointer;
+  line-height: inherit;
+}
+.pub__toggle[aria-expanded="true"] {
+  color: var(--color-primary);
+  border-color: var(--color-primary-focus);
+  background: var(--color-canvas);
+}
+.pub__extra {
+  margin: var(--s-xs) 0 0;
+  padding: var(--s-sm) var(--s-md);
+  background: var(--color-surface-1);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--r-xs);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-ink-muted);
+}
+pre.pub__extra {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.pub__extra[hidden] { display: none; }
+
+/* Jump links above the publication list */
+.yearnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-xs) var(--s-md);
+  margin: var(--s-md) 0 var(--s-lg);
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* ───────────────────────────────────────────────────────────────

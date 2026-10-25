@@ -8,9 +8,9 @@
                     {% if news.type == "paper" %}
                         <span class="news__tag news__tag--paper">Paper</span>
                         {% if news.venue %}
-                            New paper <a href="{{ news.paper_link }}"><em>{{ news.paper_title }}</em></a> was accepted to {{ news.venue }}.
+                            <a href="{{ news.paper_link }}"><em>{{ news.paper_title }}</em></a> was accepted to {{ news.venue }}.
                         {% else %}
-                            Check out our new paper <a href="{{ news.paper_link }}"><em>{{ news.paper_title }}</em></a>.
+                            New paper: <a href="{{ news.paper_link }}"><em>{{ news.paper_title }}</em></a>
                         {% endif %}
                     {% elsif news.type == "news" %}
                         <span class="news__tag news__tag--news">News</span>

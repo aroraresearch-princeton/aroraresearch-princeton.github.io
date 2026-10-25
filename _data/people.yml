@@ -7,46 +7,18 @@ sanjeev:
   website: https://www.cs.princeton.edu/~arora/
   status: principal investigator
 
-noam:
-  name: Noam Razin
+liam:
+  name: Liam Fowl
+  title: PLI Associate Research Scholar
+  photo: /people/liam_fowl.jpg
+  website: https://lhfowl.github.io/
+  status: current
+
+nicholas:
+  name: Nicholas Roberts
   title: PLI Postdoc
-  photo: /people/noam_razin.png
-  website: https://noamrazin.github.io
-  status: current
-
-yong:
-  name: Yong Lin
-  title: PLI Postdoc
-  photo: /people/yong_lin.jpg
-  website: https://linyongver.github.io/Website/
-  status: current
-
-xingyu:
-  name: Xingyu Fu
-  title: PLI Postdoc
-  photo: /people/xingyu_fu.JPG
-  website: https://zeyofu.github.io
-  status: current
-
-sadhika:
-  name: Sadhika Malladi
-  title: PhD Student
-  photo: /people/sadhika_malladi.jpg
-  website: https://sadhikamalladi.github.io/index.html
-  status: current
-
-abhishek:
-  name: Abhishek Panigrahi
-  title: PhD Student
-  photo: /people/abhishek_panigrahi.jpg
-  website: https://abhishekpanigrahi1996.github.io
-  status: current
-
-haoyu:
-  name: Haoyu Zhao
-  title: PhD Student
-  photo: /people/haoyu_zhao.jpg
-  website: https://hyzhao.me
+  photo: /people/nicholas_roberts.jpg
+  website: https://nick11roberts.science/
   status: current
 
 simran:
@@ -126,14 +98,49 @@ jack:
   website: 
   status: current
 
+################ Former members ################
+abhishek:
+  name: Abhishek Panigrahi
+  website: https://abhishekpanigrahi1996.github.io
+  status: former
+  attr: PhD 2026
+
+haoyu:
+  name: Haoyu Zhao
+  website: https://hyzhao.me
+  status: former
+  attr: PhD 2026
+
+noam:
+  name: Noam Razin
+  website: https://noamrazin.github.io
+  status: former
+  attr: Postdoc 2024–2026
+
+xingyu:
+  name: Xingyu Fu
+  website: https://zeyofu.github.io
+  status: former
+  attr: Postdoc 2025–2026
+
 jiatong:
   name: Jiatong Yu
-  title: MSE Student
-  photo: /people/jiatong_yu.jpg
-  website: https://www.cs.princeton.edu/~jiatongy/
-  status: current
-  
-################ Former members ################
+  website: https://scholar.google.com/citations?user=PppvsxkAAAAJ
+  status: former
+  attr: MSE 2026
+
+sadhika:
+  name: Sadhika Malladi
+  website: https://sadhikamalladi.github.io/index.html
+  status: former
+  attr: PhD 2025
+
+yong:
+  name: Yong Lin
+  website: https://linyongver.github.io/Website/
+  status: former
+  attr: Postdoc 2024–2025
+
 kaifeng:
   name: Kaifeng Lyu
   website: https://kaifeng.ac
@@ -160,7 +167,7 @@ yuping:
 
 zhiyuan:
   name: Zhiyuan Li
-  website: http://zhiyuanli.ttic.edu
+  website: https://zhiyuanli.ttic.edu
   status: former
   attr: PhD 2022
 
@@ -178,13 +185,13 @@ yi:
 
 orestic:
   name: Orestis Plevrakis
-  website: https://www.cs.princeton.edu/%7Eorestisp/
+  website: https://www.semanticscholar.org/author/Orestis-Plevrakis/73776012
   status: former
   attr: PhD 2021
 
 holden:
   name: Holden Lee
-  website: http://holdenlee.github.io
+  website: https://holdenlee.github.io
   status: former
   attr: PhD 2019
 
@@ -192,23 +199,23 @@ sida:
   name: Sida Wang
   website: https://www.sidaw.xyz
   status: former
-  attr: Postdoc 2017-2019
+  attr: Postdoc 2017–2019
 
 nadav:
   name: Nadav Cohen
-  website: http://www.cohennadav.com
+  website: https://www.cohennadav.com
   status: former
-  attr: Postdoc 2017-2019
+  attr: Postdoc 2017–2019
 
 behnam:
   name: Behnam Neyshabur
   website: https://www.neyshabur.net
   status: former
-  attr: Postdoc 2017-2018
+  attr: Postdoc 2017–2018
 
 yuanzhi:
   name: Yuanzhi Li
-  website: https://mbzuai.ac.ae/study/faculty/yuanzhi-li/
+  website: https://scholar.google.com/citations?user=aHtfItQAAAAJ
   status: former
   attr: PhD 2018
 
@@ -216,13 +223,13 @@ mikhail:
   name: Mikhail Khodak
   website: https://pages.cs.wisc.edu/~khodak/
   status: former
-  attr: BS'16, MSc'18
+  attr: BS 2016, MSc 2018
 
 kiran:
   name: Kiran Vodrahalli
   website: https://kiranvodrahalli.github.io/about/
   status: former
-  attr: BS'16, MSc'17
+  attr: BS 2016, MSc 2017
 
 andrej:
   name: Andrej Risteski
@@ -234,7 +241,7 @@ yingyu:
   name: Yingyu Liang
   website: https://pages.cs.wisc.edu/~yliang/
   status: former
-  attr: Postdoc 2014-2017
+  attr: Postdoc 2014–2017
 
 tengyu:
   name: Tengyu Ma
@@ -246,7 +253,7 @@ ankur:
   name: Ankur Moitra
   website: https://people.csail.mit.edu/moitra/
   status: former
-  attr: Postdoc 2011-2013
+  attr: Postdoc 2011–2013
 
 sushant:
   name: Sushant Sachdeva

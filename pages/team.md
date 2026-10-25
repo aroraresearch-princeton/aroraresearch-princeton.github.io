@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-## Current Members
+## Current members
 
 {% assign status = "principal investigator" %}
 {% include people.html %}
@@ -12,7 +12,7 @@ layout: default
 {% include people.html %}
 
 
-## Alumni (only post-2013)
+## Alumni since 2013
 
 {% include alumni.html %}
 

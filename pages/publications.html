@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<h2 id="publications">Publications</h2>
+
+<p>For our latest work, see <a href="https://scholar.google.com/citations?user=RUP4S68AAAAJ">Google Scholar</a> and <a href="https://arxiv.org/search/?searchtype=author&amp;query=Arora%2C+Sanjeev">arXiv</a>.</p>
+
+{%- comment -%} Years from 2019 on get their own section; older papers share one. {%- endcomment -%}
+{%- capture year_list -%}{%- for hash in site.data.publications -%}{%- if hash[1].year >= 2019 -%}{{ hash[1].year }} {% endif -%}{%- endfor -%}{%- endcapture -%}
+{%- assign years = year_list | split: " " | uniq | sort | reverse -%}
+
+<nav class="yearnav" aria-label="Jump to section">
+  <a href="#preprints">Preprints</a>
+  {%- for y in years %}
+  <a href="#y{{ y }}">{{ y }}</a>
+  {%- endfor %}
+  <a href="#y2018-and-before">2018 and before</a>
+</nav>
+
+<h2 id="preprints">Preprints</h2>
+{% include publications.html preprints=true %}
+
+{% for y in years %}
+{%- assign year = y | plus: 0 %}
+<h2 id="y{{ year }}">{{ year }}</h2>
+{% include publications.html year=year %}
+{% endfor %}
+
+<h2 id="y2018-and-before">2018 and before</h2>
+{% include publications.html before=2019 %}
+
+<a class="back-link" href="/index.html">Back home</a>
+
+<script>
+  // Opens and closes the bib and abstract panels under each paper.
+  document.addEventListener("click", function (event) {
+    var button = event.target.closest(".pub__toggle");
+    if (!button) return;
+    var panel = document.getElementById(button.getAttribute("aria-controls"));
+    var open = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!open));
+    panel.hidden = open;
+  });
+</script>

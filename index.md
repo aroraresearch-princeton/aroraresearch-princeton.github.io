@@ -3,15 +3,13 @@ layout: default
 ---
 
 <section class="hero">
-  <span class="hero__eyebrow">Princeton University · Computer Science</span>
-  <h1 class="hero__title">ARORA Research Lab</h1>
+  <h1 class="hero__title">Arora Research Lab</h1>
   <p class="hero__subtitle">
-    Our research lab develops conceptual understanding of AI models, including training
-    techniques, datasets, model interpretability and model evaluations. Recent works
-    involve new ways of training and evaluating models using "skills", which are
-    themselves elicited from powerful AI models, and in turn can be used to generate
-    very effective pipelines for improving AI models using synthetic training data.
-    Many of our papers involve mathematical analysis as well as experiments.
+    We develop a conceptual understanding of AI models, including training techniques,
+    datasets, interpretability, and evaluation. Recent work trains and evaluates models
+    using "skills" elicited from powerful AI models, which in turn power effective
+    pipelines for improving models with synthetic training data. Many of our papers
+    combine mathematical analysis with experiments.
   </p>
   <ul class="topic-tags" aria-label="Research areas">
     <li>LLM Training Dynamics</li>
@@ -34,7 +32,7 @@ layout: default
 {% include news.html %}
 
 <div class="section-head">
-  <h2>Selected Talks</h2>
+  <h2>Selected talks</h2>
 </div>
 
 {% include talks.html %}

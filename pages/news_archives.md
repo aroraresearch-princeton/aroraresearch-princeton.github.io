@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## News Archives
+## News archive
 
 {% include news_archives.html %}
 
-[back](/index.html)
+<a class="back-link" href="/index.html">Back home</a>
