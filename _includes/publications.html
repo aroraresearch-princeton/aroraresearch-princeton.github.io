@@ -1,12 +1,13 @@
 {%- comment -%}
   Renders one section of _data/publications.yml. Pass exactly one of:
-    preprints=true  — papers with no main venue yet
-    year=2026       — published papers whose `year` is 2026
-    before=2019     — published papers whose `year` is earlier than 2019
+    preprints=true  — this year's papers with no main venue yet
+    year=2026       — other papers whose `year` is 2026
+    before=2019     — papers whose `year` is earlier than 2019
 
-  A paper counts as a preprint when every part of its `venue` is "Preprint"
-  or a workshop. The first other part is its main venue, which the BibTeX
-  entry cites.
+  A paper's main venue is the first part of its `venue` that is neither
+  "Preprint" nor a workshop, and the BibTeX entry cites it. A paper from the
+  current year with no main venue is a preprint. An older one is listed under
+  its year instead.
 
   Authors matching a lab member's `name` (current or former, from
   _data/people.yml) are bolded.
@@ -24,6 +25,8 @@
     code     — code or data repository
     project  — project page or blog post
 {%- endcomment -%}
+
+{%- assign current_year = site.time | date: "%Y" | plus: 0 -%}
 
 {%- capture lab_names -%}
   {%- for hash in site.data.people -%}|{{ hash[1].name }}|{%- endfor -%}
@@ -43,10 +46,13 @@
                 {%- endunless -%}
             {%- endfor -%}
 
+            {%- assign is_preprint = false -%}
+            {%- if main_venue == "" and paper.year == current_year -%}{%- assign is_preprint = true -%}{%- endif -%}
+
             {%- assign show = false -%}
             {%- if include.preprints -%}
-                {%- if main_venue == "" -%}{%- assign show = true -%}{%- endif -%}
-            {%- elsif main_venue != "" -%}
+                {%- assign show = is_preprint -%}
+            {%- elsif is_preprint == false -%}
                 {%- if include.year and paper.year == include.year -%}{%- assign show = true -%}{%- endif -%}
                 {%- if include.before and paper.year < include.before -%}{%- assign show = true -%}{%- endif -%}
             {%- endif -%}
